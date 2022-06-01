@@ -1,0 +1,2044 @@
+
+[
+
+
+{
+    "id":1,
+    "DEPT": "ACCESSORIES",
+	"URL":"accessories-black-powder",
+    "TYP":"BLACK POWDER",
+	"SUBTYP_1":"EMPTY",
+	"SUBTYP_2":"EMPTY",
+	"SUBTYP_3":"EMPTY",
+	"SUBTYP_4":"EMPTY",
+	"TITLE": "Shop BLACK POWDER | Template1Company",
+	"KEYWORDS": "ACCESSORIES,BLACK POWDER,icumulus, firearms, guns",
+	"DESCRIPTION": "ACCESSORIES - BLACK POWDER We are the home of everything ecommerce platform"
+
+}
+, 
+
+{
+    "id":2,
+    "DEPT": "ACCESSORIES",
+	"URL":"accessories-books-and-videos",
+    "TYP":"BOOKS AND VIDEOS",
+	"SUBTYP_1":"EMPTY",
+	"SUBTYP_2":"EMPTY",
+	"SUBTYP_3":"EMPTY",
+	"SUBTYP_4":"EMPTY",
+	"TITLE": "Shop BOOKS AND VIDEOS | Template1Company",
+	"KEYWORDS": "ACCESSORIES,BOOKS AND VIDEOS,icumulus, firearms, guns",
+	"DESCRIPTION": "ACCESSORIES - BOOKS AND VIDEOS We are the home of everything ecommerce platform"
+
+}
+, 
+
+{
+    "id":3,
+    "DEPT": "ACCESSORIES",
+	"URL":"accessories-bore-sighter-brushes",
+    "TYP":"BORE SIGHTER/BRUSHES",
+	"SUBTYP_1":"EMPTY",
+	"SUBTYP_2":"EMPTY",
+	"SUBTYP_3":"EMPTY",
+	"SUBTYP_4":"EMPTY",
+	"TITLE": "Shop BORE SIGHTER/BRUSHES | Template1Company",
+	"KEYWORDS": "ACCESSORIES,BORE SIGHTER/BRUSHES,icumulus, firearms, guns",
+	"DESCRIPTION": "ACCESSORIES - BORE SIGHTER/BRUSHES We are the home of everything ecommerce platform"
+
+}
+, 
+
+{
+    "id":4,
+    "DEPT": "ACCESSORIES",
+	"URL":"accessories-electronics",
+    "TYP":"ELECTRONICS",
+	"SUBTYP_1":"EMPTY",
+	"SUBTYP_2":"EMPTY",
+	"SUBTYP_3":"EMPTY",
+	"SUBTYP_4":"EMPTY",
+	"TITLE": "Shop ELECTRONICS | Template1Company",
+	"KEYWORDS": "ACCESSORIES,ELECTRONICS,icumulus, firearms, guns",
+	"DESCRIPTION": "ACCESSORIES - ELECTRONICS We are the home of everything ecommerce platform"
+
+}
+, 
+
+{
+    "id":5,
+    "DEPT": "ACCESSORIES",
+	"URL":"accessories-electronics-spotlights",
+    "TYP":"ELECTRONICS",
+	"SUBTYP_1":"SPOTLIGHTS",
+	"SUBTYP_2":"EMPTY",
+	"SUBTYP_3":"EMPTY",
+	"SUBTYP_4":"EMPTY",
+	"TITLE": "Shop SPOTLIGHTS | Template1Company",
+	"KEYWORDS": "ACCESSORIES,ELECTRONICS,SPOTLIGHTS,icumulus, firearms, guns",
+	"DESCRIPTION": "ACCESSORIES - ELECTRONICS - SPOTLIGHTS: We are the home of everything ecommerce platform"
+
+}
+, 
+
+{
+    "id":6,
+    "DEPT": "ACCESSORIES",
+	"URL":"accessories",
+    "TYP":"EMPTY",
+	"SUBTYP_1":"EMPTY",
+	"SUBTYP_2":"EMPTY",
+	"SUBTYP_3":"EMPTY",
+	"SUBTYP_4":"EMPTY",
+	"TITLE": "Shop ACCESSORIES | Template1Company",
+	"KEYWORDS": "ACCESSORIES,icumulus, firearms, guns",
+	"DESCRIPTION": "ACCESSORIES We are the home of everything ecommerce platform"
+
+}
+, 
+
+{
+    "id":7,
+    "DEPT": "ACCESSORIES",
+	"URL":"accessories-firearm-accessories-bipods-monopods-tripods",
+    "TYP":"FIREARM ACCESSORIES",
+	"SUBTYP_1":"BIPODS MONOPODS TRIPODS",
+	"SUBTYP_2":"EMPTY",
+	"SUBTYP_3":"EMPTY",
+	"SUBTYP_4":"EMPTY",
+	"TITLE": "Shop BIPODS MONOPODS TRIPODS | Template1Company",
+	"KEYWORDS": "ACCESSORIES,FIREARM ACCESSORIES,BIPODS MONOPODS TRIPODS,icumulus, firearms, guns",
+	"DESCRIPTION": "ACCESSORIES - FIREARM ACCESSORIES - BIPODS MONOPODS TRIPODS: We are the home of everything ecommerce platform"
+
+}
+, 
+
+{
+    "id":8,
+    "DEPT": "ACCESSORIES",
+	"URL":"accessories-firearm-accessories-braces",
+    "TYP":"FIREARM ACCESSORIES",
+	"SUBTYP_1":"BRACES",
+	"SUBTYP_2":"EMPTY",
+	"SUBTYP_3":"EMPTY",
+	"SUBTYP_4":"EMPTY",
+	"TITLE": "Shop BRACES | Template1Company",
+	"KEYWORDS": "ACCESSORIES,FIREARM ACCESSORIES,BRACES,icumulus, firearms, guns",
+	"DESCRIPTION": "ACCESSORIES - FIREARM ACCESSORIES - BRACES: We are the home of everything ecommerce platform"
+
+}
+, 
+
+{
+    "id":9,
+    "DEPT": "ACCESSORIES",
+	"URL":"accessories-firearm-accessories",
+    "TYP":"FIREARM ACCESSORIES",
+	"SUBTYP_1":"EMPTY",
+	"SUBTYP_2":"EMPTY",
+	"SUBTYP_3":"EMPTY",
+	"SUBTYP_4":"EMPTY",
+	"TITLE": "Shop FIREARM ACCESSORIES | Template1Company",
+	"KEYWORDS": "ACCESSORIES,FIREARM ACCESSORIES,icumulus, firearms, guns",
+	"DESCRIPTION": "ACCESSORIES - FIREARM ACCESSORIES We are the home of everything ecommerce platform"
+
+}
+, 
+
+{
+    "id":10,
+    "DEPT": "ACCESSORIES",
+	"URL":"accessories-firearm-accessories-gun-racks",
+    "TYP":"FIREARM ACCESSORIES",
+	"SUBTYP_1":"GUN RACKS",
+	"SUBTYP_2":"EMPTY",
+	"SUBTYP_3":"EMPTY",
+	"SUBTYP_4":"EMPTY",
+	"TITLE": "Shop GUN RACKS | Template1Company",
+	"KEYWORDS": "ACCESSORIES,FIREARM ACCESSORIES,GUN RACKS,icumulus, firearms, guns",
+	"DESCRIPTION": "ACCESSORIES - FIREARM ACCESSORIES - GUN RACKS: We are the home of everything ecommerce platform"
+
+}
+, 
+
+{
+    "id":11,
+    "DEPT": "ACCESSORIES",
+	"URL":"accessories-firearm-accessories-mounts",
+    "TYP":"FIREARM ACCESSORIES",
+	"SUBTYP_1":"MOUNTS",
+	"SUBTYP_2":"EMPTY",
+	"SUBTYP_3":"EMPTY",
+	"SUBTYP_4":"EMPTY",
+	"TITLE": "Shop MOUNTS | Template1Company",
+	"KEYWORDS": "ACCESSORIES,FIREARM ACCESSORIES,MOUNTS,icumulus, firearms, guns",
+	"DESCRIPTION": "ACCESSORIES - FIREARM ACCESSORIES - MOUNTS: We are the home of everything ecommerce platform"
+
+}
+, 
+
+{
+    "id":12,
+    "DEPT": "ACCESSORIES",
+	"URL":"accessories-firearm-accessories-nfa",
+    "TYP":"FIREARM ACCESSORIES",
+	"SUBTYP_1":"NFA",
+	"SUBTYP_2":"EMPTY",
+	"SUBTYP_3":"EMPTY",
+	"SUBTYP_4":"EMPTY",
+	"TITLE": "Shop NFA | Template1Company",
+	"KEYWORDS": "ACCESSORIES,FIREARM ACCESSORIES,NFA,icumulus, firearms, guns",
+	"DESCRIPTION": "ACCESSORIES - FIREARM ACCESSORIES - NFA: We are the home of everything ecommerce platform"
+
+}
+, 
+
+{
+    "id":13,
+    "DEPT": "ACCESSORIES",
+	"URL":"accessories-firearm-accessories-rails-bases",
+    "TYP":"FIREARM ACCESSORIES",
+	"SUBTYP_1":"RAILS AND BASES",
+	"SUBTYP_2":"EMPTY",
+	"SUBTYP_3":"EMPTY",
+	"SUBTYP_4":"EMPTY",
+	"TITLE": "Shop RAILS AND BASES | Template1Company",
+	"KEYWORDS": "ACCESSORIES,FIREARM ACCESSORIES,RAILS AND BASES,icumulus, firearms, guns",
+	"DESCRIPTION": "ACCESSORIES - FIREARM ACCESSORIES - RAILS AND BASES: We are the home of everything ecommerce platform"
+
+}
+, 
+
+{
+    "id":14,
+    "DEPT": "ACCESSORIES",
+	"URL":"accessories-firearm-accessories-shooting-rests",
+    "TYP":"FIREARM ACCESSORIES",
+	"SUBTYP_1":"SHOOTING RESTS",
+	"SUBTYP_2":"EMPTY",
+	"SUBTYP_3":"EMPTY",
+	"SUBTYP_4":"EMPTY",
+	"TITLE": "Shop SHOOTING RESTS | Template1Company",
+	"KEYWORDS": "ACCESSORIES,FIREARM ACCESSORIES,SHOOTING RESTS,icumulus, firearms, guns",
+	"DESCRIPTION": "ACCESSORIES - FIREARM ACCESSORIES - SHOOTING RESTS: We are the home of everything ecommerce platform"
+
+}
+, 
+
+{
+    "id":15,
+    "DEPT": "ACCESSORIES",
+	"URL":"accessories-firearm-accessories-speedloaders",
+    "TYP":"FIREARM ACCESSORIES",
+	"SUBTYP_1":"SPEEDLOADERS",
+	"SUBTYP_2":"EMPTY",
+	"SUBTYP_3":"EMPTY",
+	"SUBTYP_4":"EMPTY",
+	"TITLE": "Shop SPEEDLOADERS | Template1Company",
+	"KEYWORDS": "ACCESSORIES,FIREARM ACCESSORIES,SPEEDLOADERS,icumulus, firearms, guns",
+	"DESCRIPTION": "ACCESSORIES - FIREARM ACCESSORIES - SPEEDLOADERS: We are the home of everything ecommerce platform"
+
+}
+, 
+
+{
+    "id":16,
+    "DEPT": "ACCESSORIES",
+	"URL":"accessories-firearm-accessories-suppressor-accessories",
+    "TYP":"FIREARM ACCESSORIES",
+	"SUBTYP_1":"SUPPRESSOR ACCESSORIES",
+	"SUBTYP_2":"EMPTY",
+	"SUBTYP_3":"EMPTY",
+	"SUBTYP_4":"EMPTY",
+	"TITLE": "Shop SUPPRESSOR ACCESSORIES | Template1Company",
+	"KEYWORDS": "ACCESSORIES,FIREARM ACCESSORIES,SUPPRESSOR ACCESSORIES,icumulus, firearms, guns",
+	"DESCRIPTION": "ACCESSORIES - FIREARM ACCESSORIES - SUPPRESSOR ACCESSORIES: We are the home of everything ecommerce platform"
+
+}
+, 
+
+{
+    "id":17,
+    "DEPT": "ACCESSORIES",
+	"URL":"accessories-holsters",
+    "TYP":"HOLSTERS",
+	"SUBTYP_1":"EMPTY",
+	"SUBTYP_2":"EMPTY",
+	"SUBTYP_3":"EMPTY",
+	"SUBTYP_4":"EMPTY",
+	"TITLE": "Shop HOLSTERS | Template1Company",
+	"KEYWORDS": "ACCESSORIES,HOLSTERS,icumulus, firearms, guns",
+	"DESCRIPTION": "ACCESSORIES - HOLSTERS We are the home of everything ecommerce platform"
+
+}
+, 
+
+{
+    "id":18,
+    "DEPT": "ACCESSORIES",
+	"URL":"accessories-hunting-gear",
+    "TYP":"HUNTING GEAR",
+	"SUBTYP_1":"EMPTY",
+	"SUBTYP_2":"EMPTY",
+	"SUBTYP_3":"EMPTY",
+	"SUBTYP_4":"EMPTY",
+	"TITLE": "Shop HUNTING GEAR | Template1Company",
+	"KEYWORDS": "ACCESSORIES,HUNTING GEAR,icumulus, firearms, guns",
+	"DESCRIPTION": "ACCESSORIES - HUNTING GEAR We are the home of everything ecommerce platform"
+
+}
+, 
+
+{
+    "id":19,
+    "DEPT": "ACCESSORIES",
+	"URL":"accessories-hunting-gear-repellents",
+    "TYP":"HUNTING GEAR",
+	"SUBTYP_1":"REPELLENTS",
+	"SUBTYP_2":"EMPTY",
+	"SUBTYP_3":"EMPTY",
+	"SUBTYP_4":"EMPTY",
+	"TITLE": "Shop REPELLENTS | Template1Company",
+	"KEYWORDS": "ACCESSORIES,HUNTING GEAR,REPELLENTS,icumulus, firearms, guns",
+	"DESCRIPTION": "ACCESSORIES - HUNTING GEAR - REPELLENTS: We are the home of everything ecommerce platform"
+
+}
+, 
+
+{
+    "id":20,
+    "DEPT": "ACCESSORIES",
+	"URL":"accessories-hunting-gear-scents",
+    "TYP":"HUNTING GEAR",
+	"SUBTYP_1":"SCENTS",
+	"SUBTYP_2":"EMPTY",
+	"SUBTYP_3":"EMPTY",
+	"SUBTYP_4":"EMPTY",
+	"TITLE": "Shop SCENTS | Template1Company",
+	"KEYWORDS": "ACCESSORIES,HUNTING GEAR,SCENTS,icumulus, firearms, guns",
+	"DESCRIPTION": "ACCESSORIES - HUNTING GEAR - SCENTS: We are the home of everything ecommerce platform"
+
+}
+, 
+
+{
+    "id":21,
+    "DEPT": "ACCESSORIES",
+	"URL":"accessories-lights-lasers-batteries",
+    "TYP":"LIGHTS LASERS BATTERIES",
+	"SUBTYP_1":"EMPTY",
+	"SUBTYP_2":"EMPTY",
+	"SUBTYP_3":"EMPTY",
+	"SUBTYP_4":"EMPTY",
+	"TITLE": "Shop LIGHTS LASERS BATTERIES | Template1Company",
+	"KEYWORDS": "ACCESSORIES,LIGHTS LASERS BATTERIES,icumulus, firearms, guns",
+	"DESCRIPTION": "ACCESSORIES - LIGHTS LASERS BATTERIES We are the home of everything ecommerce platform"
+
+}
+, 
+
+{
+    "id":22,
+    "DEPT": "ACCESSORIES",
+	"URL":"accessories-magazines",
+    "TYP":"MAGAZINES",
+	"SUBTYP_1":"EMPTY",
+	"SUBTYP_2":"EMPTY",
+	"SUBTYP_3":"EMPTY",
+	"SUBTYP_4":"EMPTY",
+	"TITLE": "Shop MAGAZINES | Template1Company",
+	"KEYWORDS": "ACCESSORIES,MAGAZINES,icumulus, firearms, guns",
+	"DESCRIPTION": "ACCESSORIES - MAGAZINES We are the home of everything ecommerce platform"
+
+}
+, 
+
+{
+    "id":23,
+    "DEPT": "ACCESSORIES",
+	"URL":"accessories-magazines-magazine-accessories",
+    "TYP":"MAGAZINES",
+	"SUBTYP_1":"MAGAZINE ACCESSORIES",
+	"SUBTYP_2":"EMPTY",
+	"SUBTYP_3":"EMPTY",
+	"SUBTYP_4":"EMPTY",
+	"TITLE": "Shop MAGAZINE ACCESSORIES | Template1Company",
+	"KEYWORDS": "ACCESSORIES,MAGAZINES,MAGAZINE ACCESSORIES,icumulus, firearms, guns",
+	"DESCRIPTION": "ACCESSORIES - MAGAZINES - MAGAZINE ACCESSORIES: We are the home of everything ecommerce platform"
+
+}
+, 
+
+{
+    "id":24,
+    "DEPT": "ACCESSORIES",
+	"URL":"accessories-magazines-magazine-loaders",
+    "TYP":"MAGAZINES",
+	"SUBTYP_1":"MAGAZINE LOADERS",
+	"SUBTYP_2":"EMPTY",
+	"SUBTYP_3":"EMPTY",
+	"SUBTYP_4":"EMPTY",
+	"TITLE": "Shop MAGAZINE LOADERS | Template1Company",
+	"KEYWORDS": "ACCESSORIES,MAGAZINES,MAGAZINE LOADERS,icumulus, firearms, guns",
+	"DESCRIPTION": "ACCESSORIES - MAGAZINES - MAGAZINE LOADERS: We are the home of everything ecommerce platform"
+
+}
+, 
+
+{
+    "id":25,
+    "DEPT": "ACCESSORIES",
+	"URL":"accessories-magazines-speedloaders",
+    "TYP":"MAGAZINES",
+	"SUBTYP_1":"SPEEDLOADERS",
+	"SUBTYP_2":"EMPTY",
+	"SUBTYP_3":"EMPTY",
+	"SUBTYP_4":"EMPTY",
+	"TITLE": "Shop SPEEDLOADERS | Template1Company",
+	"KEYWORDS": "ACCESSORIES,MAGAZINES,SPEEDLOADERS,icumulus, firearms, guns",
+	"DESCRIPTION": "ACCESSORIES - MAGAZINES - SPEEDLOADERS: We are the home of everything ecommerce platform"
+
+}
+, 
+
+{
+    "id":26,
+    "DEPT": "ACCESSORIES",
+	"URL":"accessories-other",
+    "TYP":"OTHER",
+	"SUBTYP_1":"EMPTY",
+	"SUBTYP_2":"EMPTY",
+	"SUBTYP_3":"EMPTY",
+	"SUBTYP_4":"EMPTY",
+	"TITLE": "Shop OTHER | Template1Company",
+	"KEYWORDS": "ACCESSORIES,OTHER,icumulus, firearms, guns",
+	"DESCRIPTION": "ACCESSORIES - OTHER We are the home of everything ecommerce platform"
+
+}
+, 
+
+{
+    "id":27,
+    "DEPT": "ACCESSORIES",
+	"URL":"accessories-safes-and-security",
+    "TYP":"SAFES AND SECURITY",
+	"SUBTYP_1":"EMPTY",
+	"SUBTYP_2":"EMPTY",
+	"SUBTYP_3":"EMPTY",
+	"SUBTYP_4":"EMPTY",
+	"TITLE": "Shop SAFES AND SECURITY | Template1Company",
+	"KEYWORDS": "ACCESSORIES,SAFES AND SECURITY,icumulus, firearms, guns",
+	"DESCRIPTION": "ACCESSORIES - SAFES AND SECURITY We are the home of everything ecommerce platform"
+
+}
+, 
+
+{
+    "id":28,
+    "DEPT": "AIR GUNS",
+	"URL":"air-guns-accessories",
+    "TYP":"ACCESSORIES",
+	"SUBTYP_1":"EMPTY",
+	"SUBTYP_2":"EMPTY",
+	"SUBTYP_3":"EMPTY",
+	"SUBTYP_4":"EMPTY",
+	"TITLE": "Shop ACCESSORIES | Template1Company",
+	"KEYWORDS": "AIR GUNS,ACCESSORIES,icumulus, firearms, guns",
+	"DESCRIPTION": "AIR GUNS - ACCESSORIES We are the home of everything ecommerce platform"
+
+}
+, 
+
+{
+    "id":29,
+    "DEPT": "AIR GUNS",
+	"URL":"air-guns-air-pistols-and-rifles",
+    "TYP":"AIR PISTOLS AND RIFLES",
+	"SUBTYP_1":"EMPTY",
+	"SUBTYP_2":"EMPTY",
+	"SUBTYP_3":"EMPTY",
+	"SUBTYP_4":"EMPTY",
+	"TITLE": "Shop AIR PISTOLS AND RIFLES | Template1Company",
+	"KEYWORDS": "AIR GUNS,AIR PISTOLS AND RIFLES,icumulus, firearms, guns",
+	"DESCRIPTION": "AIR GUNS - AIR PISTOLS AND RIFLES We are the home of everything ecommerce platform"
+
+}
+, 
+
+{
+    "id":30,
+    "DEPT": "AIR GUNS",
+	"URL":"air-guns",
+    "TYP":"EMPTY",
+	"SUBTYP_1":"EMPTY",
+	"SUBTYP_2":"EMPTY",
+	"SUBTYP_3":"EMPTY",
+	"SUBTYP_4":"EMPTY",
+	"TITLE": "Shop AIR GUNS | Template1Company",
+	"KEYWORDS": "AIR GUNS,icumulus, firearms, guns",
+	"DESCRIPTION": "AIR GUNS We are the home of everything ecommerce platform"
+
+}
+, 
+
+{
+    "id":31,
+    "DEPT": "AIR GUNS",
+	"URL":"air-guns-magazines",
+    "TYP":"MAGAZINES",
+	"SUBTYP_1":"EMPTY",
+	"SUBTYP_2":"EMPTY",
+	"SUBTYP_3":"EMPTY",
+	"SUBTYP_4":"EMPTY",
+	"TITLE": "Shop MAGAZINES | Template1Company",
+	"KEYWORDS": "AIR GUNS,MAGAZINES,icumulus, firearms, guns",
+	"DESCRIPTION": "AIR GUNS - MAGAZINES We are the home of everything ecommerce platform"
+
+}
+, 
+
+{
+    "id":32,
+    "DEPT": "AMMUNITION",
+	"URL":"ammunition-black-powder",
+    "TYP":"BLACK POWDER",
+	"SUBTYP_1":"EMPTY",
+	"SUBTYP_2":"EMPTY",
+	"SUBTYP_3":"EMPTY",
+	"SUBTYP_4":"EMPTY",
+	"TITLE": "Shop BLACK POWDER | Template1Company",
+	"KEYWORDS": "AMMUNITION,BLACK POWDER,icumulus, firearms, guns",
+	"DESCRIPTION": "AMMUNITION - BLACK POWDER We are the home of everything ecommerce platform"
+
+}
+, 
+
+{
+    "id":33,
+    "DEPT": "AMMUNITION",
+	"URL":"ammunition-blanks-slugs",
+    "TYP":"BLANKS/SLUGS",
+	"SUBTYP_1":"EMPTY",
+	"SUBTYP_2":"EMPTY",
+	"SUBTYP_3":"EMPTY",
+	"SUBTYP_4":"EMPTY",
+	"TITLE": "Shop BLANKS/SLUGS | Template1Company",
+	"KEYWORDS": "AMMUNITION,BLANKS/SLUGS,icumulus, firearms, guns",
+	"DESCRIPTION": "AMMUNITION - BLANKS/SLUGS We are the home of everything ecommerce platform"
+
+}
+, 
+
+{
+    "id":34,
+    "DEPT": "AMMUNITION",
+	"URL":"ammunition",
+    "TYP":"EMPTY",
+	"SUBTYP_1":"EMPTY",
+	"SUBTYP_2":"EMPTY",
+	"SUBTYP_3":"EMPTY",
+	"SUBTYP_4":"EMPTY",
+	"TITLE": "Shop AMMUNITION | Template1Company",
+	"KEYWORDS": "AMMUNITION,icumulus, firearms, guns",
+	"DESCRIPTION": "AMMUNITION We are the home of everything ecommerce platform"
+
+}
+, 
+
+{
+    "id":35,
+    "DEPT": "AMMUNITION",
+	"URL":"ammunition-pistol",
+    "TYP":"PISTOL",
+	"SUBTYP_1":"EMPTY",
+	"SUBTYP_2":"EMPTY",
+	"SUBTYP_3":"EMPTY",
+	"SUBTYP_4":"EMPTY",
+	"TITLE": "Shop PISTOL | Template1Company",
+	"KEYWORDS": "AMMUNITION,PISTOL,icumulus, firearms, guns",
+	"DESCRIPTION": "AMMUNITION - PISTOL We are the home of everything ecommerce platform"
+
+}
+, 
+
+{
+    "id":36,
+    "DEPT": "AMMUNITION",
+	"URL":"ammunition-rifle",
+    "TYP":"RIFLE",
+	"SUBTYP_1":"EMPTY",
+	"SUBTYP_2":"EMPTY",
+	"SUBTYP_3":"EMPTY",
+	"SUBTYP_4":"EMPTY",
+	"TITLE": "Shop RIFLE | Template1Company",
+	"KEYWORDS": "AMMUNITION,RIFLE,icumulus, firearms, guns",
+	"DESCRIPTION": "AMMUNITION - RIFLE We are the home of everything ecommerce platform"
+
+}
+, 
+
+{
+    "id":37,
+    "DEPT": "AMMUNITION",
+	"URL":"ammunition-rimfire",
+    "TYP":"RIMFIRE",
+	"SUBTYP_1":"EMPTY",
+	"SUBTYP_2":"EMPTY",
+	"SUBTYP_3":"EMPTY",
+	"SUBTYP_4":"EMPTY",
+	"TITLE": "Shop RIMFIRE | Template1Company",
+	"KEYWORDS": "AMMUNITION,RIMFIRE,icumulus, firearms, guns",
+	"DESCRIPTION": "AMMUNITION - RIMFIRE We are the home of everything ecommerce platform"
+
+}
+, 
+
+{
+    "id":38,
+    "DEPT": "AMMUNITION",
+	"URL":"ammunition-shotshell-buckshot",
+    "TYP":"SHOTSHELL",
+	"SUBTYP_1":"BUCKSHOT",
+	"SUBTYP_2":"EMPTY",
+	"SUBTYP_3":"EMPTY",
+	"SUBTYP_4":"EMPTY",
+	"TITLE": "Shop BUCKSHOT | Template1Company",
+	"KEYWORDS": "AMMUNITION,SHOTSHELL,BUCKSHOT,icumulus, firearms, guns",
+	"DESCRIPTION": "AMMUNITION - SHOTSHELL - BUCKSHOT: We are the home of everything ecommerce platform"
+
+}
+, 
+
+{
+    "id":39,
+    "DEPT": "AMMUNITION",
+	"URL":"ammunition-shotshell",
+    "TYP":"SHOTSHELL",
+	"SUBTYP_1":"EMPTY",
+	"SUBTYP_2":"EMPTY",
+	"SUBTYP_3":"EMPTY",
+	"SUBTYP_4":"EMPTY",
+	"TITLE": "Shop SHOTSHELL | Template1Company",
+	"KEYWORDS": "AMMUNITION,SHOTSHELL,icumulus, firearms, guns",
+	"DESCRIPTION": "AMMUNITION - SHOTSHELL We are the home of everything ecommerce platform"
+
+}
+, 
+
+{
+    "id":40,
+    "DEPT": "AMMUNITION",
+	"URL":"ammunition-shotshell-slug",
+    "TYP":"SHOTSHELL",
+	"SUBTYP_1":"SLUG",
+	"SUBTYP_2":"EMPTY",
+	"SUBTYP_3":"EMPTY",
+	"SUBTYP_4":"EMPTY",
+	"TITLE": "Shop SLUG | Template1Company",
+	"KEYWORDS": "AMMUNITION,SHOTSHELL,SLUG,icumulus, firearms, guns",
+	"DESCRIPTION": "AMMUNITION - SHOTSHELL - SLUG: We are the home of everything ecommerce platform"
+
+}
+, 
+
+{
+    "id":41,
+    "DEPT": "APPAREL",
+	"URL":"apparel-outerwear-jackets",
+    "TYP":"OUTERWEAR",
+	"SUBTYP_1":"JACKETS",
+	"SUBTYP_2":"EMPTY",
+	"SUBTYP_3":"EMPTY",
+	"SUBTYP_4":"EMPTY",
+	"TITLE": "Shop JACKETS | Template1Company",
+	"KEYWORDS": "APPAREL,OUTERWEAR,JACKETS,icumulus, firearms, guns",
+	"DESCRIPTION": "APPAREL - OUTERWEAR - JACKETS: We are the home of everything ecommerce platform"
+
+}
+, 
+
+{
+    "id":42,
+    "DEPT": "APPAREL",
+	"URL":"apparel-outerwear-vests",
+    "TYP":"OUTERWEAR",
+	"SUBTYP_1":"VESTS",
+	"SUBTYP_2":"EMPTY",
+	"SUBTYP_3":"EMPTY",
+	"SUBTYP_4":"EMPTY",
+	"TITLE": "Shop VESTS | Template1Company",
+	"KEYWORDS": "APPAREL,OUTERWEAR,VESTS,icumulus, firearms, guns",
+	"DESCRIPTION": "APPAREL - OUTERWEAR - VESTS: We are the home of everything ecommerce platform"
+
+}
+, 
+
+{
+    "id":43,
+    "DEPT": "ARCHERY",
+	"URL":"archery-accessories",
+    "TYP":"ACCESSORIES",
+	"SUBTYP_1":"EMPTY",
+	"SUBTYP_2":"EMPTY",
+	"SUBTYP_3":"EMPTY",
+	"SUBTYP_4":"EMPTY",
+	"TITLE": "Shop ACCESSORIES | Template1Company",
+	"KEYWORDS": "ARCHERY,ACCESSORIES,icumulus, firearms, guns",
+	"DESCRIPTION": "ARCHERY - ACCESSORIES We are the home of everything ecommerce platform"
+
+}
+, 
+
+{
+    "id":44,
+    "DEPT": "ARCHERY",
+	"URL":"archery",
+    "TYP":"EMPTY",
+	"SUBTYP_1":"EMPTY",
+	"SUBTYP_2":"EMPTY",
+	"SUBTYP_3":"EMPTY",
+	"SUBTYP_4":"EMPTY",
+	"TITLE": "Shop ARCHERY | Template1Company",
+	"KEYWORDS": "ARCHERY,icumulus, firearms, guns",
+	"DESCRIPTION": "ARCHERY We are the home of everything ecommerce platform"
+
+}
+, 
+
+{
+    "id":45,
+    "DEPT": "CAMPING & OUTDOOR",
+	"URL":"camping-outdoor-backpacks-and-gearbags-and-bags",
+    "TYP":"BACKPACKS & GEARBAGS & BAGS",
+	"SUBTYP_1":"EMPTY",
+	"SUBTYP_2":"EMPTY",
+	"SUBTYP_3":"EMPTY",
+	"SUBTYP_4":"EMPTY",
+	"TITLE": "Shop BACKPACKS & GEARBAGS & BAGS | Template1Company",
+	"KEYWORDS": "CAMPING & OUTDOOR,BACKPACKS & GEARBAGS & BAGS,icumulus, firearms, guns",
+	"DESCRIPTION": "CAMPING & OUTDOOR - BACKPACKS & GEARBAGS & BAGS We are the home of everything ecommerce platform"
+
+}
+, 
+
+{
+    "id":46,
+    "DEPT": "CAMPING & OUTDOOR",
+	"URL":"camping-outdoor-hydration-systems",
+    "TYP":"HYDRATION SYSTEMS",
+	"SUBTYP_1":"EMPTY",
+	"SUBTYP_2":"EMPTY",
+	"SUBTYP_3":"EMPTY",
+	"SUBTYP_4":"EMPTY",
+	"TITLE": "Shop HYDRATION SYSTEMS | Template1Company",
+	"KEYWORDS": "CAMPING & OUTDOOR,HYDRATION SYSTEMS,icumulus, firearms, guns",
+	"DESCRIPTION": "CAMPING & OUTDOOR - HYDRATION SYSTEMS We are the home of everything ecommerce platform"
+
+}
+, 
+
+{
+    "id":47,
+    "DEPT": "CAMPING & OUTDOOR",
+	"URL":"camping-outdoor-survival",
+    "TYP":"SURVIVAL",
+	"SUBTYP_1":"EMPTY",
+	"SUBTYP_2":"EMPTY",
+	"SUBTYP_3":"EMPTY",
+	"SUBTYP_4":"EMPTY",
+	"TITLE": "Shop SURVIVAL | Template1Company",
+	"KEYWORDS": "CAMPING & OUTDOOR,SURVIVAL,icumulus, firearms, guns",
+	"DESCRIPTION": "CAMPING & OUTDOOR - SURVIVAL We are the home of everything ecommerce platform"
+
+}
+, 
+
+{
+    "id":48,
+    "DEPT": "CLEANING & STORAGE",
+	"URL":"cleaning-storage-backpacks-and-packs",
+    "TYP":"BACKPACKS AND PACKS",
+	"SUBTYP_1":"EMPTY",
+	"SUBTYP_2":"EMPTY",
+	"SUBTYP_3":"EMPTY",
+	"SUBTYP_4":"EMPTY",
+	"TITLE": "Shop BACKPACKS AND PACKS | Template1Company",
+	"KEYWORDS": "CLEANING & STORAGE,BACKPACKS AND PACKS,icumulus, firearms, guns",
+	"DESCRIPTION": "CLEANING & STORAGE - BACKPACKS AND PACKS We are the home of everything ecommerce platform"
+
+}
+, 
+
+{
+    "id":49,
+    "DEPT": "CLEANING & STORAGE",
+	"URL":"cleaning-storage-range-packs",
+    "TYP":"RANGE PACKS",
+	"SUBTYP_1":"EMPTY",
+	"SUBTYP_2":"EMPTY",
+	"SUBTYP_3":"EMPTY",
+	"SUBTYP_4":"EMPTY",
+	"TITLE": "Shop RANGE PACKS | Template1Company",
+	"KEYWORDS": "CLEANING & STORAGE,RANGE PACKS,icumulus, firearms, guns",
+	"DESCRIPTION": "CLEANING & STORAGE - RANGE PACKS We are the home of everything ecommerce platform"
+
+}
+, 
+
+{
+    "id":50,
+    "DEPT": "CLEANING & STORAGE",
+	"URL":"cleaning-storage-utility-cases",
+    "TYP":"UTILITY CASES",
+	"SUBTYP_1":"EMPTY",
+	"SUBTYP_2":"EMPTY",
+	"SUBTYP_3":"EMPTY",
+	"SUBTYP_4":"EMPTY",
+	"TITLE": "Shop UTILITY CASES | Template1Company",
+	"KEYWORDS": "CLEANING & STORAGE,UTILITY CASES,icumulus, firearms, guns",
+	"DESCRIPTION": "CLEANING & STORAGE - UTILITY CASES We are the home of everything ecommerce platform"
+
+}
+, 
+
+{
+    "id":51,
+    "DEPT": "CLOTHES",
+	"URL":"CLOTHES",
+    "TYP":"EMPTY",
+	"SUBTYP_1":"EMPTY",
+	"SUBTYP_2":"EMPTY",
+	"SUBTYP_3":"EMPTY",
+	"SUBTYP_4":"EMPTY",
+	"TITLE": "Shop CLOTHES | Template1Company",
+	"KEYWORDS": "CLOTHES,icumulus, firearms, guns",
+	"DESCRIPTION": "CLOTHES We are the home of everything ecommerce platform"
+
+}
+, 
+
+{
+    "id":52,
+    "DEPT": "CLOTHES",
+	"URL":"LEVIS",
+    "TYP":"LEVIS",
+	"SUBTYP_1":"EMPTY",
+	"SUBTYP_2":"EMPTY",
+	"SUBTYP_3":"EMPTY",
+	"SUBTYP_4":"EMPTY",
+	"TITLE": "Shop LEVIS | Template1Company",
+	"KEYWORDS": "CLOTHES,LEVIS,icumulus, firearms, guns",
+	"DESCRIPTION": "CLOTHES - LEVIS We are the home of everything ecommerce platform"
+
+}
+, 
+
+{
+    "id":53,
+    "DEPT": "CLOTHES",
+	"URL":"SWIMWEAR",
+    "TYP":"SWIMWEAR",
+	"SUBTYP_1":"EMPTY",
+	"SUBTYP_2":"EMPTY",
+	"SUBTYP_3":"EMPTY",
+	"SUBTYP_4":"EMPTY",
+	"TITLE": "Shop SWIMWEAR | Template1Company",
+	"KEYWORDS": "CLOTHES,SWIMWEAR,icumulus, firearms, guns",
+	"DESCRIPTION": "CLOTHES - SWIMWEAR We are the home of everything ecommerce platform"
+
+}
+, 
+
+ 
+
+{
+    "id":55,
+    "DEPT": "DUTY GEAR",
+	"URL":"duty-gear",
+    "TYP":"EMPTY",
+	"SUBTYP_1":"EMPTY",
+	"SUBTYP_2":"EMPTY",
+	"SUBTYP_3":"EMPTY",
+	"SUBTYP_4":"EMPTY",
+	"TITLE": "Shop DUTY GEAR | Template1Company",
+	"KEYWORDS": "DUTY GEAR,icumulus, firearms, guns",
+	"DESCRIPTION": "DUTY GEAR We are the home of everything ecommerce platform"
+
+}
+, 
+
+ 
+
+
+
+{
+    "id":62,
+    "DEPT": "FIREARMS",
+	"URL":"firearms-black-powder",
+    "TYP":"BLACK POWDER",
+	"SUBTYP_1":"EMPTY",
+	"SUBTYP_2":"EMPTY",
+	"SUBTYP_3":"EMPTY",
+	"SUBTYP_4":"EMPTY",
+	"TITLE": "Shop BLACK POWDER | Template1Company",
+	"KEYWORDS": "FIREARMS,BLACK POWDER,icumulus, firearms, guns",
+	"DESCRIPTION": "FIREARMS - BLACK POWDER We are the home of everything ecommerce platform"
+
+}
+, 
+
+{
+    "id":63,
+    "DEPT": "FIREARMS",
+	"URL":"firearms",
+    "TYP":"EMPTY",
+	"SUBTYP_1":"EMPTY",
+	"SUBTYP_2":"EMPTY",
+	"SUBTYP_3":"EMPTY",
+	"SUBTYP_4":"EMPTY",
+	"TITLE": "Shop FIREARMS | Template1Company",
+	"KEYWORDS": "FIREARMS,icumulus, firearms, guns",
+	"DESCRIPTION": "FIREARMS We are the home of everything ecommerce platform"
+
+}
+, 
+
+{
+    "id":64,
+    "DEPT": "FIREARMS",
+	"URL":"firearms-handguns",
+    "TYP":"HANDGUNS",
+	"SUBTYP_1":"EMPTY",
+	"SUBTYP_2":"EMPTY",
+	"SUBTYP_3":"EMPTY",
+	"SUBTYP_4":"EMPTY",
+	"TITLE": "Shop HANDGUNS | Template1Company",
+	"KEYWORDS": "FIREARMS,HANDGUNS,icumulus, firearms, guns",
+	"DESCRIPTION": "FIREARMS - HANDGUNS We are the home of everything ecommerce platform"
+
+}
+, 
+
+{
+    "id":65,
+    "DEPT": "FIREARMS",
+	"URL":"firearms-handguns-pistols",
+    "TYP":"HANDGUNS",
+	"SUBTYP_1":"PISTOLS",
+	"SUBTYP_2":"EMPTY",
+	"SUBTYP_3":"EMPTY",
+	"SUBTYP_4":"EMPTY",
+	"TITLE": "Shop PISTOLS | Template1Company",
+	"KEYWORDS": "FIREARMS,HANDGUNS,PISTOLS,icumulus, firearms, guns",
+	"DESCRIPTION": "FIREARMS - HANDGUNS - PISTOLS: We are the home of everything ecommerce platform"
+
+}
+, 
+
+{
+    "id":66,
+    "DEPT": "FIREARMS",
+	"URL":"firearms-handguns-revolvers",
+    "TYP":"HANDGUNS",
+	"SUBTYP_1":"REVOLVERS",
+	"SUBTYP_2":"EMPTY",
+	"SUBTYP_3":"EMPTY",
+	"SUBTYP_4":"EMPTY",
+	"TITLE": "Shop REVOLVERS | Template1Company",
+	"KEYWORDS": "FIREARMS,HANDGUNS,REVOLVERS,icumulus, firearms, guns",
+	"DESCRIPTION": "FIREARMS - HANDGUNS - REVOLVERS: We are the home of everything ecommerce platform"
+
+}
+, 
+
+{
+    "id":67,
+    "DEPT": "FIREARMS",
+	"URL":"firearms-nfa",
+    "TYP":"NFA",
+	"SUBTYP_1":"EMPTY",
+	"SUBTYP_2":"EMPTY",
+	"SUBTYP_3":"EMPTY",
+	"SUBTYP_4":"EMPTY",
+	"TITLE": "Shop NFA | Template1Company",
+	"KEYWORDS": "FIREARMS,NFA,icumulus, firearms, guns",
+	"DESCRIPTION": "FIREARMS - NFA We are the home of everything ecommerce platform"
+
+}
+, 
+
+{
+    "id":68,
+    "DEPT": "FIREARMS",
+	"URL":"firearms-nfa-silencers",
+    "TYP":"NFA",
+	"SUBTYP_1":"SILENCERS",
+	"SUBTYP_2":"EMPTY",
+	"SUBTYP_3":"EMPTY",
+	"SUBTYP_4":"EMPTY",
+	"TITLE": "Shop SILENCERS | Template1Company",
+	"KEYWORDS": "FIREARMS,NFA,SILENCERS,icumulus, firearms, guns",
+	"DESCRIPTION": "FIREARMS - NFA - SILENCERS: We are the home of everything ecommerce platform"
+
+}
+, 
+
+{
+    "id":69,
+    "DEPT": "FIREARMS",
+	"URL":"firearms-receivers-complete-lowers",
+    "TYP":"RECEIVERS",
+	"SUBTYP_1":"COMPLETE LOWERS",
+	"SUBTYP_2":"EMPTY",
+	"SUBTYP_3":"EMPTY",
+	"SUBTYP_4":"EMPTY",
+	"TITLE": "Shop COMPLETE LOWERS | Template1Company",
+	"KEYWORDS": "FIREARMS,RECEIVERS,COMPLETE LOWERS,icumulus, firearms, guns",
+	"DESCRIPTION": "FIREARMS - RECEIVERS - COMPLETE LOWERS: We are the home of everything ecommerce platform"
+
+}
+, 
+
+{
+    "id":70,
+    "DEPT": "FIREARMS",
+	"URL":"firearms-receivers",
+    "TYP":"RECEIVERS",
+	"SUBTYP_1":"EMPTY",
+	"SUBTYP_2":"EMPTY",
+	"SUBTYP_3":"EMPTY",
+	"SUBTYP_4":"EMPTY",
+	"TITLE": "Shop RECEIVERS | Template1Company",
+	"KEYWORDS": "FIREARMS,RECEIVERS,icumulus, firearms, guns",
+	"DESCRIPTION": "FIREARMS - RECEIVERS We are the home of everything ecommerce platform"
+
+}
+, 
+
+{
+    "id":71,
+    "DEPT": "FIREARMS",
+	"URL":"firearms-rifles-shotgun-combos",
+    "TYP":"RIFLE SHOTGUN COMBOS",
+	"SUBTYP_1":"EMPTY",
+	"SUBTYP_2":"EMPTY",
+	"SUBTYP_3":"EMPTY",
+	"SUBTYP_4":"EMPTY",
+	"TITLE": "Shop RIFLE SHOTGUN COMBOS | Template1Company",
+	"KEYWORDS": "FIREARMS,RIFLE SHOTGUN COMBOS,icumulus, firearms, guns",
+	"DESCRIPTION": "FIREARMS - RIFLE SHOTGUN COMBOS We are the home of everything ecommerce platform"
+
+}
+, 
+
+{
+    "id":72,
+    "DEPT": "FIREARMS",
+	"URL":"firearms-rifles",
+    "TYP":"RIFLES",
+	"SUBTYP_1":"EMPTY",
+	"SUBTYP_2":"EMPTY",
+	"SUBTYP_3":"EMPTY",
+	"SUBTYP_4":"EMPTY",
+	"TITLE": "Shop RIFLES | Template1Company",
+	"KEYWORDS": "FIREARMS,RIFLES,icumulus, firearms, guns",
+	"DESCRIPTION": "FIREARMS - RIFLES We are the home of everything ecommerce platform"
+
+}
+, 
+
+{
+    "id":73,
+    "DEPT": "FIREARMS",
+	"URL":"firearms-rifles-tactical-rifles",
+    "TYP":"RIFLES",
+	"SUBTYP_1":"TACTICAL RIFLES",
+	"SUBTYP_2":"EMPTY",
+	"SUBTYP_3":"EMPTY",
+	"SUBTYP_4":"EMPTY",
+	"TITLE": "Shop TACTICAL RIFLES | Template1Company",
+	"KEYWORDS": "FIREARMS,RIFLES,TACTICAL RIFLES,icumulus, firearms, guns",
+	"DESCRIPTION": "FIREARMS - RIFLES - TACTICAL RIFLES: We are the home of everything ecommerce platform"
+
+}
+, 
+
+{
+    "id":74,
+    "DEPT": "FIREARMS",
+	"URL":"firearms-shotguns",
+    "TYP":"SHOTGUNS",
+	"SUBTYP_1":"EMPTY",
+	"SUBTYP_2":"EMPTY",
+	"SUBTYP_3":"EMPTY",
+	"SUBTYP_4":"EMPTY",
+	"TITLE": "Shop SHOTGUNS | Template1Company",
+	"KEYWORDS": "FIREARMS,SHOTGUNS,icumulus, firearms, guns",
+	"DESCRIPTION": "FIREARMS - SHOTGUNS We are the home of everything ecommerce platform"
+
+}
+, 
+
+{
+    "id":75,
+    "DEPT": "FIREARMS",
+	"URL":"firearms-shotguns-tactical",
+    "TYP":"SHOTGUNS",
+	"SUBTYP_1":"TACTICAL",
+	"SUBTYP_2":"EMPTY",
+	"SUBTYP_3":"EMPTY",
+	"SUBTYP_4":"EMPTY",
+	"TITLE": "Shop TACTICAL | Template1Company",
+	"KEYWORDS": "FIREARMS,SHOTGUNS,TACTICAL,icumulus, firearms, guns",
+	"DESCRIPTION": "FIREARMS - SHOTGUNS - TACTICAL: We are the home of everything ecommerce platform"
+
+}
+, 
+
+{
+    "id":76,
+    "DEPT": "FISHING",
+	"URL":"fishing-accessories-and-tackle",
+    "TYP":"ACCESSORIES AND TACKLE",
+	"SUBTYP_1":"EMPTY",
+	"SUBTYP_2":"EMPTY",
+	"SUBTYP_3":"EMPTY",
+	"SUBTYP_4":"EMPTY",
+	"TITLE": "Shop ACCESSORIES AND TACKLE | Template1Company",
+	"KEYWORDS": "FISHING,ACCESSORIES AND TACKLE,icumulus, firearms, guns",
+	"DESCRIPTION": "FISHING - ACCESSORIES AND TACKLE We are the home of everything ecommerce platform"
+
+}
+, 
+
+{
+    "id":77,
+    "DEPT": "FISHING",
+	"URL":"fishing",
+    "TYP":"EMPTY",
+	"SUBTYP_1":"EMPTY",
+	"SUBTYP_2":"EMPTY",
+	"SUBTYP_3":"EMPTY",
+	"SUBTYP_4":"EMPTY",
+	"TITLE": "Shop FISHING | Template1Company",
+	"KEYWORDS": "FISHING,icumulus, firearms, guns",
+	"DESCRIPTION": "FISHING We are the home of everything ecommerce platform"
+
+}
+, 
+
+{
+    "id":78,
+    "DEPT": "GUN PARTS",
+	"URL":"gun-parts-barrels-and-accessories",
+    "TYP":"BARRELS AND ACCESSORIES",
+	"SUBTYP_1":"EMPTY",
+	"SUBTYP_2":"EMPTY",
+	"SUBTYP_3":"EMPTY",
+	"SUBTYP_4":"EMPTY",
+	"TITLE": "Shop BARRELS AND ACCESSORIES | Template1Company",
+	"KEYWORDS": "GUN PARTS,BARRELS AND ACCESSORIES,icumulus, firearms, guns",
+	"DESCRIPTION": "GUN PARTS - BARRELS AND ACCESSORIES We are the home of everything ecommerce platform"
+
+}
+, 
+
+{
+    "id":79,
+    "DEPT": "GUN PARTS",
+	"URL":"gun-parts-barrels-choke-tubes-muzzle-devices",
+    "TYP":"BARRELS CHOKE TUBES MUZZLE DEVICES",
+	"SUBTYP_1":"EMPTY",
+	"SUBTYP_2":"EMPTY",
+	"SUBTYP_3":"EMPTY",
+	"SUBTYP_4":"EMPTY",
+	"TITLE": "Shop BARRELS CHOKE TUBES MUZZLE DEVICES | Template1Company",
+	"KEYWORDS": "GUN PARTS,BARRELS CHOKE TUBES MUZZLE DEVICES,icumulus, firearms, guns",
+	"DESCRIPTION": "GUN PARTS - BARRELS CHOKE TUBES MUZZLE DEVICES We are the home of everything ecommerce platform"
+
+}
+, 
+
+{
+    "id":80,
+    "DEPT": "GUN PARTS",
+	"URL":"gun-parts-bolts",
+    "TYP":"BOLTS",
+	"SUBTYP_1":"EMPTY",
+	"SUBTYP_2":"EMPTY",
+	"SUBTYP_3":"EMPTY",
+	"SUBTYP_4":"EMPTY",
+	"TITLE": "Shop BOLTS | Template1Company",
+	"KEYWORDS": "GUN PARTS,BOLTS,icumulus, firearms, guns",
+	"DESCRIPTION": "GUN PARTS - BOLTS We are the home of everything ecommerce platform"
+
+}
+, 
+
+{
+    "id":81,
+    "DEPT": "GUN PARTS",
+	"URL":"gun-parts-complete-uppers",
+    "TYP":"COMPLETE UPPERS",
+	"SUBTYP_1":"EMPTY",
+	"SUBTYP_2":"EMPTY",
+	"SUBTYP_3":"EMPTY",
+	"SUBTYP_4":"EMPTY",
+	"TITLE": "Shop COMPLETE UPPERS | Template1Company",
+	"KEYWORDS": "GUN PARTS,COMPLETE UPPERS,icumulus, firearms, guns",
+	"DESCRIPTION": "GUN PARTS - COMPLETE UPPERS We are the home of everything ecommerce platform"
+
+}
+, 
+
+{
+    "id":82,
+    "DEPT": "GUN PARTS",
+	"URL":"gun-parts-conversion-kits",
+    "TYP":"CONVERSION KITS",
+	"SUBTYP_1":"EMPTY",
+	"SUBTYP_2":"EMPTY",
+	"SUBTYP_3":"EMPTY",
+	"SUBTYP_4":"EMPTY",
+	"TITLE": "Shop CONVERSION KITS | Template1Company",
+	"KEYWORDS": "GUN PARTS,CONVERSION KITS,icumulus, firearms, guns",
+	"DESCRIPTION": "GUN PARTS - CONVERSION KITS We are the home of everything ecommerce platform"
+
+}
+, 
+
+{
+    "id":83,
+    "DEPT": "GUN PARTS",
+	"URL":"gun-parts",
+    "TYP":"EMPTY",
+	"SUBTYP_1":"EMPTY",
+	"SUBTYP_2":"EMPTY",
+	"SUBTYP_3":"EMPTY",
+	"SUBTYP_4":"EMPTY",
+	"TITLE": "Shop GUN PARTS | Template1Company",
+	"KEYWORDS": "GUN PARTS,icumulus, firearms, guns",
+	"DESCRIPTION": "GUN PARTS We are the home of everything ecommerce platform"
+
+}
+, 
+
+{
+    "id":84,
+    "DEPT": "GUN PARTS",
+	"URL":"gun-parts-gas-blocks",
+    "TYP":"GAS BLOCKS",
+	"SUBTYP_1":"EMPTY",
+	"SUBTYP_2":"EMPTY",
+	"SUBTYP_3":"EMPTY",
+	"SUBTYP_4":"EMPTY",
+	"TITLE": "Shop GAS BLOCKS | Template1Company",
+	"KEYWORDS": "GUN PARTS,GAS BLOCKS,icumulus, firearms, guns",
+	"DESCRIPTION": "GUN PARTS - GAS BLOCKS We are the home of everything ecommerce platform"
+
+}
+, 
+
+{
+    "id":85,
+    "DEPT": "GUN PARTS",
+	"URL":"gun-parts-grips",
+    "TYP":"GRIPS",
+	"SUBTYP_1":"EMPTY",
+	"SUBTYP_2":"EMPTY",
+	"SUBTYP_3":"EMPTY",
+	"SUBTYP_4":"EMPTY",
+	"TITLE": "Shop GRIPS | Template1Company",
+	"KEYWORDS": "GUN PARTS,GRIPS,icumulus, firearms, guns",
+	"DESCRIPTION": "GUN PARTS - GRIPS We are the home of everything ecommerce platform"
+
+}
+, 
+
+{
+    "id":86,
+    "DEPT": "GUN PARTS",
+	"URL":"gun-parts-handgun-barrels",
+    "TYP":"HANDGUN BARRELS",
+	"SUBTYP_1":"EMPTY",
+	"SUBTYP_2":"EMPTY",
+	"SUBTYP_3":"EMPTY",
+	"SUBTYP_4":"EMPTY",
+	"TITLE": "Shop HANDGUN BARRELS | Template1Company",
+	"KEYWORDS": "GUN PARTS,HANDGUN BARRELS,icumulus, firearms, guns",
+	"DESCRIPTION": "GUN PARTS - HANDGUN BARRELS We are the home of everything ecommerce platform"
+
+}
+, 
+
+{
+    "id":87,
+    "DEPT": "GUN PARTS",
+	"URL":"gun-parts-muzzle-devices",
+    "TYP":"MUZZLE DEVICES",
+	"SUBTYP_1":"EMPTY",
+	"SUBTYP_2":"EMPTY",
+	"SUBTYP_3":"EMPTY",
+	"SUBTYP_4":"EMPTY",
+	"TITLE": "Shop MUZZLE DEVICES | Template1Company",
+	"KEYWORDS": "GUN PARTS,MUZZLE DEVICES,icumulus, firearms, guns",
+	"DESCRIPTION": "GUN PARTS - MUZZLE DEVICES We are the home of everything ecommerce platform"
+
+}
+, 
+
+{
+    "id":88,
+    "DEPT": "GUN PARTS",
+	"URL":"gun-parts-other",
+    "TYP":"OTHER",
+	"SUBTYP_1":"EMPTY",
+	"SUBTYP_2":"EMPTY",
+	"SUBTYP_3":"EMPTY",
+	"SUBTYP_4":"EMPTY",
+	"TITLE": "Shop OTHER | Template1Company",
+	"KEYWORDS": "GUN PARTS,OTHER,icumulus, firearms, guns",
+	"DESCRIPTION": "GUN PARTS - OTHER We are the home of everything ecommerce platform"
+
+}
+, 
+
+{
+    "id":89,
+    "DEPT": "GUN PARTS",
+	"URL":"gun-parts-sights",
+    "TYP":"SIGHTS",
+	"SUBTYP_1":"EMPTY",
+	"SUBTYP_2":"EMPTY",
+	"SUBTYP_3":"EMPTY",
+	"SUBTYP_4":"EMPTY",
+	"TITLE": "Shop SIGHTS | Template1Company",
+	"KEYWORDS": "GUN PARTS,SIGHTS,icumulus, firearms, guns",
+	"DESCRIPTION": "GUN PARTS - SIGHTS We are the home of everything ecommerce platform"
+
+}
+, 
+
+{
+    "id":90,
+    "DEPT": "GUN PARTS",
+	"URL":"gun-parts-slides",
+    "TYP":"SLIDES",
+	"SUBTYP_1":"EMPTY",
+	"SUBTYP_2":"EMPTY",
+	"SUBTYP_3":"EMPTY",
+	"SUBTYP_4":"EMPTY",
+	"TITLE": "Shop SLIDES | Template1Company",
+	"KEYWORDS": "GUN PARTS,SLIDES,icumulus, firearms, guns",
+	"DESCRIPTION": "GUN PARTS - SLIDES We are the home of everything ecommerce platform"
+
+}
+, 
+
+{
+    "id":91,
+    "DEPT": "GUN PARTS",
+	"URL":"gun-parts-slings-and-swivels",
+    "TYP":"SLINGS AND SWIVELS",
+	"SUBTYP_1":"EMPTY",
+	"SUBTYP_2":"EMPTY",
+	"SUBTYP_3":"EMPTY",
+	"SUBTYP_4":"EMPTY",
+	"TITLE": "Shop SLINGS AND SWIVELS | Template1Company",
+	"KEYWORDS": "GUN PARTS,SLINGS AND SWIVELS,icumulus, firearms, guns",
+	"DESCRIPTION": "GUN PARTS - SLINGS AND SWIVELS We are the home of everything ecommerce platform"
+
+}
+, 
+
+{
+    "id":92,
+    "DEPT": "GUN PARTS",
+	"URL":"gun-parts-stocks",
+    "TYP":"STOCKS",
+	"SUBTYP_1":"EMPTY",
+	"SUBTYP_2":"EMPTY",
+	"SUBTYP_3":"EMPTY",
+	"SUBTYP_4":"EMPTY",
+	"TITLE": "Shop STOCKS | Template1Company",
+	"KEYWORDS": "GUN PARTS,STOCKS,icumulus, firearms, guns",
+	"DESCRIPTION": "GUN PARTS - STOCKS We are the home of everything ecommerce platform"
+
+}
+, 
+
+{
+    "id":93,
+    "DEPT": "GUN PARTS",
+	"URL":"gun-parts-triggers",
+    "TYP":"TRIGGERS",
+	"SUBTYP_1":"EMPTY",
+	"SUBTYP_2":"EMPTY",
+	"SUBTYP_3":"EMPTY",
+	"SUBTYP_4":"EMPTY",
+	"TITLE": "Shop TRIGGERS | Template1Company",
+	"KEYWORDS": "GUN PARTS,TRIGGERS,icumulus, firearms, guns",
+	"DESCRIPTION": "GUN PARTS - TRIGGERS We are the home of everything ecommerce platform"
+
+}
+, 
+
+{
+    "id":94,
+    "DEPT": "KNIVES AND TOOLS",
+	"URL":"knives-and-tools",
+    "TYP":"EMPTY",
+	"SUBTYP_1":"EMPTY",
+	"SUBTYP_2":"EMPTY",
+	"SUBTYP_3":"EMPTY",
+	"SUBTYP_4":"EMPTY",
+	"TITLE": "Shop KNIVES AND TOOLS | Template1Company",
+	"KEYWORDS": "KNIVES AND TOOLS,icumulus, firearms, guns",
+	"DESCRIPTION": "KNIVES AND TOOLS We are the home of everything ecommerce platform"
+
+}
+, 
+
+{
+    "id":95,
+    "DEPT": "KNIVES AND TOOLS",
+	"URL":"knives-and-tools-machetes",
+    "TYP":"MACHETES",
+	"SUBTYP_1":"EMPTY",
+	"SUBTYP_2":"EMPTY",
+	"SUBTYP_3":"EMPTY",
+	"SUBTYP_4":"EMPTY",
+	"TITLE": "Shop MACHETES | Template1Company",
+	"KEYWORDS": "KNIVES AND TOOLS,MACHETES,icumulus, firearms, guns",
+	"DESCRIPTION": "KNIVES AND TOOLS - MACHETES We are the home of everything ecommerce platform"
+
+}
+, 
+
+{
+    "id":96,
+    "DEPT": "KNIVES AND TOOLS",
+	"URL":"knives-and-tools-multi-tools",
+    "TYP":"MULTI-TOOLS",
+	"SUBTYP_1":"EMPTY",
+	"SUBTYP_2":"EMPTY",
+	"SUBTYP_3":"EMPTY",
+	"SUBTYP_4":"EMPTY",
+	"TITLE": "Shop MULTI-TOOLS | Template1Company",
+	"KEYWORDS": "KNIVES AND TOOLS,MULTI-TOOLS,icumulus, firearms, guns",
+	"DESCRIPTION": "KNIVES AND TOOLS - MULTI-TOOLS We are the home of everything ecommerce platform"
+
+}
+, 
+
+{
+    "id":97,
+    "DEPT": "KNIVES AND TOOLS",
+	"URL":"knives-and-tools-other-blades-accessories",
+    "TYP":"OTHER BLADES-ACCESSORIES",
+	"SUBTYP_1":"EMPTY",
+	"SUBTYP_2":"EMPTY",
+	"SUBTYP_3":"EMPTY",
+	"SUBTYP_4":"EMPTY",
+	"TITLE": "Shop OTHER BLADES-ACCESSORIES | Template1Company",
+	"KEYWORDS": "KNIVES AND TOOLS,OTHER BLADES-ACCESSORIES,icumulus, firearms, guns",
+	"DESCRIPTION": "KNIVES AND TOOLS - OTHER BLADES-ACCESSORIES We are the home of everything ecommerce platform"
+
+}
+, 
+
+{
+    "id":98,
+    "DEPT": "NM TEST DEPT",
+	"URL":"nm-test-dept",
+    "TYP":"EMPTY",
+	"SUBTYP_1":"EMPTY",
+	"SUBTYP_2":"EMPTY",
+	"SUBTYP_3":"EMPTY",
+	"SUBTYP_4":"EMPTY",
+	"TITLE": "Shop NM TEST DEPT | Template1Company",
+	"KEYWORDS": "NM TEST DEPT,icumulus, firearms, guns",
+	"DESCRIPTION": "NM TEST DEPT We are the home of everything ecommerce platform"
+
+}
+, 
+
+{
+    "id":99,
+    "DEPT": "NM TEST DEPT",
+	"URL":"nm-test-dept-linked",
+    "TYP":"LINKED DROP DOWNS",
+	"SUBTYP_1":"EMPTY",
+	"SUBTYP_2":"EMPTY",
+	"SUBTYP_3":"EMPTY",
+	"SUBTYP_4":"EMPTY",
+	"TITLE": "Shop LINKED DROP DOWNS | Template1Company",
+	"KEYWORDS": "NM TEST DEPT,LINKED DROP DOWNS,icumulus, firearms, guns",
+	"DESCRIPTION": "NM TEST DEPT - LINKED DROP DOWNS We are the home of everything ecommerce platform"
+
+}
+, 
+
+{
+    "id":100,
+    "DEPT": "OPTICS",
+	"URL":"optics-accessories",
+    "TYP":"ACCESSORIES",
+	"SUBTYP_1":"EMPTY",
+	"SUBTYP_2":"EMPTY",
+	"SUBTYP_3":"EMPTY",
+	"SUBTYP_4":"EMPTY",
+	"TITLE": "Shop ACCESSORIES | Template1Company",
+	"KEYWORDS": "OPTICS,ACCESSORIES,icumulus, firearms, guns",
+	"DESCRIPTION": "OPTICS - ACCESSORIES We are the home of everything ecommerce platform"
+
+}
+, 
+
+{
+    "id":101,
+    "DEPT": "OPTICS",
+	"URL":"optics",
+    "TYP":"EMPTY",
+	"SUBTYP_1":"EMPTY",
+	"SUBTYP_2":"EMPTY",
+	"SUBTYP_3":"EMPTY",
+	"SUBTYP_4":"EMPTY",
+	"TITLE": "Shop OPTICS | Template1Company",
+	"KEYWORDS": "OPTICS,icumulus, firearms, guns",
+	"DESCRIPTION": "OPTICS We are the home of everything ecommerce platform"
+
+}
+, 
+
+{
+    "id":102,
+    "DEPT": "OPTICS",
+	"URL":"optics-nv-thermal",
+    "TYP":"NV AND THERMAL",
+	"SUBTYP_1":"EMPTY",
+	"SUBTYP_2":"EMPTY",
+	"SUBTYP_3":"EMPTY",
+	"SUBTYP_4":"EMPTY",
+	"TITLE": "Shop NV AND THERMAL | Template1Company",
+	"KEYWORDS": "OPTICS,NV AND THERMAL,icumulus, firearms, guns",
+	"DESCRIPTION": "OPTICS - NV AND THERMAL We are the home of everything ecommerce platform"
+
+}
+, 
+
+{
+    "id":103,
+    "DEPT": "OPTICS",
+	"URL":"optics-nv-thermal-night-vision",
+    "TYP":"NV AND THERMAL",
+	"SUBTYP_1":"NIGHT VISION",
+	"SUBTYP_2":"EMPTY",
+	"SUBTYP_3":"EMPTY",
+	"SUBTYP_4":"EMPTY",
+	"TITLE": "Shop NIGHT VISION | Template1Company",
+	"KEYWORDS": "OPTICS,NV AND THERMAL,NIGHT VISION,icumulus, firearms, guns",
+	"DESCRIPTION": "OPTICS - NV AND THERMAL - NIGHT VISION: We are the home of everything ecommerce platform"
+
+}
+, 
+
+{
+    "id":104,
+    "DEPT": "OPTICS",
+	"URL":"optics-range-finders",
+    "TYP":"RANGE FINDERS",
+	"SUBTYP_1":"EMPTY",
+	"SUBTYP_2":"EMPTY",
+	"SUBTYP_3":"EMPTY",
+	"SUBTYP_4":"EMPTY",
+	"TITLE": "Shop RANGE FINDERS | Template1Company",
+	"KEYWORDS": "OPTICS,RANGE FINDERS,icumulus, firearms, guns",
+	"DESCRIPTION": "OPTICS - RANGE FINDERS We are the home of everything ecommerce platform"
+
+}
+, 
+
+{
+    "id":105,
+    "DEPT": "OPTICS",
+	"URL":"optics-red-dot",
+    "TYP":"RED DOT",
+	"SUBTYP_1":"EMPTY",
+	"SUBTYP_2":"EMPTY",
+	"SUBTYP_3":"EMPTY",
+	"SUBTYP_4":"EMPTY",
+	"TITLE": "Shop RED DOT | Template1Company",
+	"KEYWORDS": "OPTICS,RED DOT,icumulus, firearms, guns",
+	"DESCRIPTION": "OPTICS - RED DOT We are the home of everything ecommerce platform"
+
+}
+, 
+
+{
+    "id":106,
+    "DEPT": "OPTICS",
+	"URL":"optics-scopes",
+    "TYP":"SCOPES",
+	"SUBTYP_1":"EMPTY",
+	"SUBTYP_2":"EMPTY",
+	"SUBTYP_3":"EMPTY",
+	"SUBTYP_4":"EMPTY",
+	"TITLE": "Shop SCOPES | Template1Company",
+	"KEYWORDS": "OPTICS,SCOPES,icumulus, firearms, guns",
+	"DESCRIPTION": "OPTICS - SCOPES We are the home of everything ecommerce platform"
+
+}
+, 
+
+{
+    "id":107,
+    "DEPT": "OPTICS",
+	"URL":"optics-scopes-rifle",
+    "TYP":"SCOPES",
+	"SUBTYP_1":"RIFLE",
+	"SUBTYP_2":"EMPTY",
+	"SUBTYP_3":"EMPTY",
+	"SUBTYP_4":"EMPTY",
+	"TITLE": "Shop RIFLE | Template1Company",
+	"KEYWORDS": "OPTICS,SCOPES,RIFLE,icumulus, firearms, guns",
+	"DESCRIPTION": "OPTICS - SCOPES - RIFLE: We are the home of everything ecommerce platform"
+
+}
+, 
+
+{
+    "id":108,
+    "DEPT": "OPTICS",
+	"URL":"optics-scopes-spotting",
+    "TYP":"SCOPES",
+	"SUBTYP_1":"SPOTTING",
+	"SUBTYP_2":"EMPTY",
+	"SUBTYP_3":"EMPTY",
+	"SUBTYP_4":"EMPTY",
+	"TITLE": "Shop SPOTTING | Template1Company",
+	"KEYWORDS": "OPTICS,SCOPES,SPOTTING,icumulus, firearms, guns",
+	"DESCRIPTION": "OPTICS - SCOPES - SPOTTING: We are the home of everything ecommerce platform"
+
+}
+, 
+
+{
+    "id":109,
+    "DEPT": "OPTICS",
+	"URL":"optics-sights",
+    "TYP":"SIGHTS",
+	"SUBTYP_1":"EMPTY",
+	"SUBTYP_2":"EMPTY",
+	"SUBTYP_3":"EMPTY",
+	"SUBTYP_4":"EMPTY",
+	"TITLE": "Shop SIGHTS | Template1Company",
+	"KEYWORDS": "OPTICS,SIGHTS,icumulus, firearms, guns",
+	"DESCRIPTION": "OPTICS - SIGHTS We are the home of everything ecommerce platform"
+
+}
+, 
+
+{
+    "id":110,
+    "DEPT": "OPTICS",
+	"URL":"optics-sights-pistol",
+    "TYP":"SIGHTS",
+	"SUBTYP_1":"PISTOL",
+	"SUBTYP_2":"EMPTY",
+	"SUBTYP_3":"EMPTY",
+	"SUBTYP_4":"EMPTY",
+	"TITLE": "Shop PISTOL | Template1Company",
+	"KEYWORDS": "OPTICS,SIGHTS,PISTOL,icumulus, firearms, guns",
+	"DESCRIPTION": "OPTICS - SIGHTS - PISTOL: We are the home of everything ecommerce platform"
+
+}
+, 
+
+{
+    "id":111,
+    "DEPT": "OPTICS",
+	"URL":"optics-sights-rifle",
+    "TYP":"SIGHTS",
+	"SUBTYP_1":"RIFLE",
+	"SUBTYP_2":"EMPTY",
+	"SUBTYP_3":"EMPTY",
+	"SUBTYP_4":"EMPTY",
+	"TITLE": "Shop RIFLE | Template1Company",
+	"KEYWORDS": "OPTICS,SIGHTS,RIFLE,icumulus, firearms, guns",
+	"DESCRIPTION": "OPTICS - SIGHTS - RIFLE: We are the home of everything ecommerce platform"
+
+}
+, 
+
+{
+    "id":112,
+    "DEPT": "OPTICS",
+	"URL":"optics-sights-shotgun",
+    "TYP":"SIGHTS",
+	"SUBTYP_1":"SHOTGUN",
+	"SUBTYP_2":"EMPTY",
+	"SUBTYP_3":"EMPTY",
+	"SUBTYP_4":"EMPTY",
+	"TITLE": "Shop SHOTGUN | Template1Company",
+	"KEYWORDS": "OPTICS,SIGHTS,SHOTGUN,icumulus, firearms, guns",
+	"DESCRIPTION": "OPTICS - SIGHTS - SHOTGUN: We are the home of everything ecommerce platform"
+
+}
+, 
+
+{
+    "id":113,
+    "DEPT": "SAFETY PRODUCTS",
+	"URL":"safety-products-ear-protection",
+    "TYP":"EAR PROTECTION",
+	"SUBTYP_1":"EMPTY",
+	"SUBTYP_2":"EMPTY",
+	"SUBTYP_3":"EMPTY",
+	"SUBTYP_4":"EMPTY",
+	"TITLE": "Shop EAR PROTECTION | Template1Company",
+	"KEYWORDS": "SAFETY PRODUCTS,EAR PROTECTION,icumulus, firearms, guns",
+	"DESCRIPTION": "SAFETY PRODUCTS - EAR PROTECTION We are the home of everything ecommerce platform"
+
+}
+, 
+
+{
+    "id":114,
+    "DEPT": "SAFETY PRODUCTS",
+	"URL":"safety-products",
+    "TYP":"EMPTY",
+	"SUBTYP_1":"EMPTY",
+	"SUBTYP_2":"EMPTY",
+	"SUBTYP_3":"EMPTY",
+	"SUBTYP_4":"EMPTY",
+	"TITLE": "Shop SAFETY PRODUCTS | Template1Company",
+	"KEYWORDS": "SAFETY PRODUCTS,icumulus, firearms, guns",
+	"DESCRIPTION": "SAFETY PRODUCTS We are the home of everything ecommerce platform"
+
+}
+, 
+
+{
+    "id":115,
+    "DEPT": "SAFETY PRODUCTS",
+	"URL":"safety-products-eye-protection",
+    "TYP":"EYE PROTECTION",
+	"SUBTYP_1":"EMPTY",
+	"SUBTYP_2":"EMPTY",
+	"SUBTYP_3":"EMPTY",
+	"SUBTYP_4":"EMPTY",
+	"TITLE": "Shop EYE PROTECTION | Template1Company",
+	"KEYWORDS": "SAFETY PRODUCTS,EYE PROTECTION,icumulus, firearms, guns",
+	"DESCRIPTION": "SAFETY PRODUCTS - EYE PROTECTION We are the home of everything ecommerce platform"
+
+}
+, 
+
+{
+    "id":116,
+    "DEPT": "SAFETY PRODUCTS",
+	"URL":"safety-products-gun-locks",
+    "TYP":"GUN LOCKS",
+	"SUBTYP_1":"EMPTY",
+	"SUBTYP_2":"EMPTY",
+	"SUBTYP_3":"EMPTY",
+	"SUBTYP_4":"EMPTY",
+	"TITLE": "Shop GUN LOCKS | Template1Company",
+	"KEYWORDS": "SAFETY PRODUCTS,GUN LOCKS,icumulus, firearms, guns",
+	"DESCRIPTION": "SAFETY PRODUCTS - GUN LOCKS We are the home of everything ecommerce platform"
+
+}
+, 
+
+{
+    "id":117,
+    "DEPT": "SAFETY PRODUCTS",
+	"URL":"safety-products-other",
+    "TYP":"OTHER",
+	"SUBTYP_1":"EMPTY",
+	"SUBTYP_2":"EMPTY",
+	"SUBTYP_3":"EMPTY",
+	"SUBTYP_4":"EMPTY",
+	"TITLE": "Shop OTHER | Template1Company",
+	"KEYWORDS": "SAFETY PRODUCTS,OTHER,icumulus, firearms, guns",
+	"DESCRIPTION": "SAFETY PRODUCTS - OTHER We are the home of everything ecommerce platform"
+
+}
+, 
+
+{
+    "id":118,
+    "DEPT": "SAFETY PRODUCTS",
+	"URL":"safety-products-pepper-sprays",
+    "TYP":"PEPPER SPRAYS",
+	"SUBTYP_1":"EMPTY",
+	"SUBTYP_2":"EMPTY",
+	"SUBTYP_3":"EMPTY",
+	"SUBTYP_4":"EMPTY",
+	"TITLE": "Shop PEPPER SPRAYS | Template1Company",
+	"KEYWORDS": "SAFETY PRODUCTS,PEPPER SPRAYS,icumulus, firearms, guns",
+	"DESCRIPTION": "SAFETY PRODUCTS - PEPPER SPRAYS We are the home of everything ecommerce platform"
+
+}
+, 
+
+{
+    "id":119,
+    "DEPT": "SAFETY PRODUCTS",
+	"URL":"safety-products-safety-and-protection",
+    "TYP":"SAFETY AND PROTECTION",
+	"SUBTYP_1":"EMPTY",
+	"SUBTYP_2":"EMPTY",
+	"SUBTYP_3":"EMPTY",
+	"SUBTYP_4":"EMPTY",
+	"TITLE": "Shop SAFETY AND PROTECTION | Template1Company",
+	"KEYWORDS": "SAFETY PRODUCTS,SAFETY AND PROTECTION,icumulus, firearms, guns",
+	"DESCRIPTION": "SAFETY PRODUCTS - SAFETY AND PROTECTION We are the home of everything ecommerce platform"
+
+}
+, 
+
+{
+    "id":120,
+    "DEPT": "SAFETY PRODUCTS",
+	"URL":"safety-products-stun-guns",
+    "TYP":"STUN GUNS",
+	"SUBTYP_1":"EMPTY",
+	"SUBTYP_2":"EMPTY",
+	"SUBTYP_3":"EMPTY",
+	"SUBTYP_4":"EMPTY",
+	"TITLE": "Shop STUN GUNS | Template1Company",
+	"KEYWORDS": "SAFETY PRODUCTS,STUN GUNS,icumulus, firearms, guns",
+	"DESCRIPTION": "SAFETY PRODUCTS - STUN GUNS We are the home of everything ecommerce platform"
+
+}
+, 
+
+{
+    "id":121,
+    "DEPT": "SUPPLIES",
+	"URL":"supplies",
+    "TYP":"EMPTY",
+	"SUBTYP_1":"EMPTY",
+	"SUBTYP_2":"EMPTY",
+	"SUBTYP_3":"EMPTY",
+	"SUBTYP_4":"EMPTY",
+	"TITLE": "Shop SUPPLIES | Template1Company",
+	"KEYWORDS": "SUPPLIES,icumulus, firearms, guns",
+	"DESCRIPTION": "SUPPLIES We are the home of everything ecommerce platform"
+
+}
+, 
+
+{
+    "id":122,
+    "DEPT": "SUPPLIES",
+	"URL":"supplies-primers-and-powders",
+    "TYP":"PRIMERS AND POWDERS",
+	"SUBTYP_1":"EMPTY",
+	"SUBTYP_2":"EMPTY",
+	"SUBTYP_3":"EMPTY",
+	"SUBTYP_4":"EMPTY",
+	"TITLE": "Shop PRIMERS AND POWDERS | Template1Company",
+	"KEYWORDS": "SUPPLIES,PRIMERS AND POWDERS,icumulus, firearms, guns",
+	"DESCRIPTION": "SUPPLIES - PRIMERS AND POWDERS We are the home of everything ecommerce platform"
+
+}
+, 
+
+{
+    "id":123,
+    "DEPT": "SUPPLIES",
+	"URL":"supplies-reloading-accessories",
+    "TYP":"RELOADING",
+	"SUBTYP_1":"ACCESSORIES",
+	"SUBTYP_2":"EMPTY",
+	"SUBTYP_3":"EMPTY",
+	"SUBTYP_4":"EMPTY",
+	"TITLE": "Shop ACCESSORIES | Template1Company",
+	"KEYWORDS": "SUPPLIES,RELOADING,ACCESSORIES,icumulus, firearms, guns",
+	"DESCRIPTION": "SUPPLIES - RELOADING - ACCESSORIES: We are the home of everything ecommerce platform"
+
+}
+, 
+
+{
+    "id":124,
+    "DEPT": "SUPPLIES",
+	"URL":"supplies-reloading-brass",
+    "TYP":"RELOADING",
+	"SUBTYP_1":"BRASS",
+	"SUBTYP_2":"EMPTY",
+	"SUBTYP_3":"EMPTY",
+	"SUBTYP_4":"EMPTY",
+	"TITLE": "Shop BRASS | Template1Company",
+	"KEYWORDS": "SUPPLIES,RELOADING,BRASS,icumulus, firearms, guns",
+	"DESCRIPTION": "SUPPLIES - RELOADING - BRASS: We are the home of everything ecommerce platform"
+
+}
+, 
+
+{
+    "id":125,
+    "DEPT": "SUPPLIES",
+	"URL":"supplies-reloading",
+    "TYP":"RELOADING",
+	"SUBTYP_1":"EMPTY",
+	"SUBTYP_2":"EMPTY",
+	"SUBTYP_3":"EMPTY",
+	"SUBTYP_4":"EMPTY",
+	"TITLE": "Shop RELOADING | Template1Company",
+	"KEYWORDS": "SUPPLIES,RELOADING,icumulus, firearms, guns",
+	"DESCRIPTION": "SUPPLIES - RELOADING We are the home of everything ecommerce platform"
+
+}
+, 
+
+{
+    "id":126,
+    "DEPT": "SUPPLIES",
+	"URL":"supplies-reloading-wads",
+    "TYP":"RELOADING",
+	"SUBTYP_1":"WADS",
+	"SUBTYP_2":"EMPTY",
+	"SUBTYP_3":"EMPTY",
+	"SUBTYP_4":"EMPTY",
+	"TITLE": "Shop WADS | Template1Company",
+	"KEYWORDS": "SUPPLIES,RELOADING,WADS,icumulus, firearms, guns",
+	"DESCRIPTION": "SUPPLIES - RELOADING - WADS: We are the home of everything ecommerce platform"
+
+}
+, 
+
+{
+    "id":127,
+    "DEPT": "SUPPLIES",
+	"URL":"supplies-targets-accessories",
+    "TYP":"TARGETS",
+	"SUBTYP_1":"ACCESSORIES",
+	"SUBTYP_2":"EMPTY",
+	"SUBTYP_3":"EMPTY",
+	"SUBTYP_4":"EMPTY",
+	"TITLE": "Shop ACCESSORIES | Template1Company",
+	"KEYWORDS": "SUPPLIES,TARGETS,ACCESSORIES,icumulus, firearms, guns",
+	"DESCRIPTION": "SUPPLIES - TARGETS - ACCESSORIES: We are the home of everything ecommerce platform"
+
+}
+, 
+
+{
+    "id":128,
+    "DEPT": "SUPPLIES",
+	"URL":"supplies-targets-adhesive",
+    "TYP":"TARGETS",
+	"SUBTYP_1":"ADHESIVE",
+	"SUBTYP_2":"EMPTY",
+	"SUBTYP_3":"EMPTY",
+	"SUBTYP_4":"EMPTY",
+	"TITLE": "Shop ADHESIVE | Template1Company",
+	"KEYWORDS": "SUPPLIES,TARGETS,ADHESIVE,icumulus, firearms, guns",
+	"DESCRIPTION": "SUPPLIES - TARGETS - ADHESIVE: We are the home of everything ecommerce platform"
+
+}
+, 
+
+{
+    "id":129,
+    "DEPT": "SUPPLIES",
+	"URL":"supplies-targets-clays",
+    "TYP":"TARGETS",
+	"SUBTYP_1":"CLAYS",
+	"SUBTYP_2":"EMPTY",
+	"SUBTYP_3":"EMPTY",
+	"SUBTYP_4":"EMPTY",
+	"TITLE": "Shop CLAYS | Template1Company",
+	"KEYWORDS": "SUPPLIES,TARGETS,CLAYS,icumulus, firearms, guns",
+	"DESCRIPTION": "SUPPLIES - TARGETS - CLAYS: We are the home of everything ecommerce platform"
+
+}
+, 
+
+{
+    "id":130,
+    "DEPT": "SUPPLIES",
+	"URL":"supplies-targets",
+    "TYP":"TARGETS",
+	"SUBTYP_1":"EMPTY",
+	"SUBTYP_2":"EMPTY",
+	"SUBTYP_3":"EMPTY",
+	"SUBTYP_4":"EMPTY",
+	"TITLE": "Shop TARGETS | Template1Company",
+	"KEYWORDS": "SUPPLIES,TARGETS,icumulus, firearms, guns",
+	"DESCRIPTION": "SUPPLIES - TARGETS We are the home of everything ecommerce platform"
+
+}
+, 
+
+{
+    "id":131,
+    "DEPT": "SUPPLIES",
+	"URL":"supplies-targets-interactive",
+    "TYP":"TARGETS",
+	"SUBTYP_1":"INTERACTIVE",
+	"SUBTYP_2":"EMPTY",
+	"SUBTYP_3":"EMPTY",
+	"SUBTYP_4":"EMPTY",
+	"TITLE": "Shop INTERACTIVE | Template1Company",
+	"KEYWORDS": "SUPPLIES,TARGETS,INTERACTIVE,icumulus, firearms, guns",
+	"DESCRIPTION": "SUPPLIES - TARGETS - INTERACTIVE: We are the home of everything ecommerce platform"
+
+}
+, 
+
+{
+    "id":132,
+    "DEPT": "SUPPLIES",
+	"URL":"supplies-targets-metal",
+    "TYP":"TARGETS",
+	"SUBTYP_1":"METAL",
+	"SUBTYP_2":"EMPTY",
+	"SUBTYP_3":"EMPTY",
+	"SUBTYP_4":"EMPTY",
+	"TITLE": "Shop METAL | Template1Company",
+	"KEYWORDS": "SUPPLIES,TARGETS,METAL,icumulus, firearms, guns",
+	"DESCRIPTION": "SUPPLIES - TARGETS - METAL: We are the home of everything ecommerce platform"
+
+}
+, 
+
+{
+    "id":133,
+    "DEPT": "SUPPLIES",
+	"URL":"supplies-targets-paper",
+    "TYP":"TARGETS",
+	"SUBTYP_1":"PAPER",
+	"SUBTYP_2":"EMPTY",
+	"SUBTYP_3":"EMPTY",
+	"SUBTYP_4":"EMPTY",
+	"TITLE": "Shop PAPER | Template1Company",
+	"KEYWORDS": "SUPPLIES,TARGETS,PAPER,icumulus, firearms, guns",
+	"DESCRIPTION": "SUPPLIES - TARGETS - PAPER: We are the home of everything ecommerce platform"
+
+}
+, 
+
+{
+    "id":134,
+    "DEPT": "SUPPLIES",
+	"URL":"supplies-targets-throwers",
+    "TYP":"TARGETS",
+	"SUBTYP_1":"THROWERS",
+	"SUBTYP_2":"EMPTY",
+	"SUBTYP_3":"EMPTY",
+	"SUBTYP_4":"EMPTY",
+	"TITLE": "Shop THROWERS | Template1Company",
+	"KEYWORDS": "SUPPLIES,TARGETS,THROWERS,icumulus, firearms, guns",
+	"DESCRIPTION": "SUPPLIES - TARGETS - THROWERS: We are the home of everything ecommerce platform"
+
+}
+
+]
+
+

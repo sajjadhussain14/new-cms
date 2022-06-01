@@ -1,0 +1,6 @@
+[{ "admin_user":"zeke","admin_pass":"e0b5e1a3e86a399112b9eb893daeacfd","role":"admin"},
+    { "admin_user":"eric","admin_pass":"29988429c481f219b8c5ba8c071440e1","role":"dev"},
+    { "admin_user":"john","admin_pass":"527bd5b5d689e2c32ae974c6229ff785","role":"member"},
+    { "admin_user":"james","admin_pass":"b4cc344d25a2efe540adbf2678e2304c","role":"client"}
+
+]

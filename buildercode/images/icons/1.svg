@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="45" height="20" viewBox="0 0 45 20">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #000;
+        stroke-width: 2px;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <rect x="35" y="8" width="2" height="2"/>
+  <rect id="Rectangle_3_copy_2" data-name="Rectangle 3 copy 2" x="17" y="8" width="13" height="2"/>
+  <rect id="Rectangle_3_copy_12" data-name="Rectangle 3 copy 12" x="17" y="3" width="13" height="1"/>
+  <rect id="Rectangle_3_copy_3" data-name="Rectangle 3 copy 3" x="5" y="15" width="3" height="2"/>
+  <rect id="Rectangle_3_copy_4" data-name="Rectangle 3 copy 4" x="9" y="15" width="3" height="2"/>
+  <rect id="Rectangle_3_copy_5" data-name="Rectangle 3 copy 5" x="13" y="15" width="3" height="2"/>
+  <rect id="Rectangle_3_copy_6" data-name="Rectangle 3 copy 6" x="17" y="15" width="3" height="2"/>
+  <rect id="Rectangle_3_copy_7" data-name="Rectangle 3 copy 7" x="21" y="15" width="3" height="2"/>
+  <rect id="Rectangle_3_copy_8" data-name="Rectangle 3 copy 8" x="24" y="15" width="3" height="2"/>
+  <rect id="Rectangle_3_copy_9" data-name="Rectangle 3 copy 9" x="29" y="15" width="3" height="2"/>
+  <rect id="Rectangle_3_copy_10" data-name="Rectangle 3 copy 10" x="33" y="15" width="3" height="2"/>
+  <rect id="Rectangle_3_copy_11" data-name="Rectangle 3 copy 11" x="37" y="15" width="3" height="2"/>
+  <rect id="Rectangle_3_copy" data-name="Rectangle 3 copy" x="38" y="8" width="2" height="2"/>
+  <path class="cls-1" d="M3,1H42a2,2,0,0,1,2,2V17a2,2,0,0,1-2,2H3a2,2,0,0,1-2-2V3A2,2,0,0,1,3,1Z"/>
+  <rect x="5" y="6" width="6" height="6"/>
+</svg>

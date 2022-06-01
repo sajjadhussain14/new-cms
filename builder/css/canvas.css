@@ -1,0 +1,51 @@
+.main-comp {
+    border: dotted 2px red;
+    padding-top: 20px;
+    padding-bottom: 20px;
+ margin-top: 30px;
+ margin-bottom: 50px;    
+}
+
+.main-comp-theme {
+    border: dotted 2px red;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+
+.inner-comp {
+    border: dotted 2px rgb(179, 255, 0);
+}
+
+.inner-comp2 {
+    border: solid 2px rgb(0, 255, 191);
+}
+.gjs-frame-wrapper {
+    overflow: scroll;
+}
+
+.gjs-frame-wrapper ::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 0, 0, 1) !important;
+}
+
+.gjs-frame-wrapper ::-webkit-scrollbar-track {
+    background: rgba(255, 255, 255, 1) !important;
+}
+
+.gjs-frame-wrapper ::-webkit-scrollbar {
+    width: 100px !important;
+}
+.gjs-editor-cont ::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 0, 0, 1) !important;
+}
+
+.gjs-editor-cont ::-webkit-scrollbar-track {
+    background: rgba(255, 255, 255, 1) !important;
+}
+
+.gjs-editor-cont ::-webkit-scrollbar {
+    width: 8px !important;
+    border-radius: 8px !important;
+}
