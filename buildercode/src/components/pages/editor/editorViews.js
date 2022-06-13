@@ -66,7 +66,7 @@ export const ManagePages = (
               </button>
               <button
                 onClick={() => {
-                  PageHandle(setAllPages);
+                  PageHandle(setAllPages, "Builder");
                 }}
                 type="button"
                 class="btn bg-newbg text-dark"
@@ -505,7 +505,7 @@ export const ManageWidgets = (
           <span class="bg-light d-block p-3">
             You Can display any Widget on any page calling below hooks
             <br />
-            <strong>getWidget('widget Slung')</strong>
+            <strong>displayWidget('widget Slug','id of Content Area')</strong>
           </span>
 
           <section id="topNavChoose" class="border border-2">

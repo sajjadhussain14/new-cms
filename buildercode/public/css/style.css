@@ -800,3 +800,33 @@ overflow:hidden;
 #gjs-clm-close {color: black !important;}
 /******************END WIDGET CSS*********************/
 
+.overlay {
+    position: fixed;
+    opacity: 50%;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    top: 0;
+    z-index: 999999;
+}
+
+.loading {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+
+@keyframes loading {
+    0% {
+        transform: scale(1);
+    }
+
+    20% {
+        transform: scale(1, 2.2);
+    }
+
+    40% {
+        transform: scale(1);
+    }
+}

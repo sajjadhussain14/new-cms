@@ -76,6 +76,7 @@ console.log("currentURL is : ", currentURL);
 export let infoURL = "";
 export let widgetURL = "";
 export let bannerURL = "";
+export let baseName = "";
 
 if (
   currentURL.startsWith("http://localhost") ||
@@ -97,3 +98,10 @@ if (
 }
 
 console.log("nodeExpressURL", nodeExpressURL);
+
+const base_url = window.location.origin;
+if (base_url.startsWith("http://localhost:5500")) {
+  baseName = process.env.REACT_APP_BASE_NAME_TEMP;
+} else {
+  baseName = process.env.REACT_APP_BASE_NAME;
+}

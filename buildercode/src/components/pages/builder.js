@@ -7,6 +7,7 @@ import "grapick/dist/grapick.min.css";
 import { useAlert } from "react-alert";
 import { useNavigate } from "react-router-dom";
 import $ from "jquery";
+import { baseName } from "../../config";
 import {
   InitEditor,
   saveCurrentPage,
@@ -17,6 +18,7 @@ import {
   WidgetHandle,
   bannerHandle,
   logOut,
+  AdminPage,
 } from "./editor/editorController";
 import {
   getPages,
@@ -149,25 +151,24 @@ export default function Builder() {
   const [plugins, setPlugins] = useState("");
   const [dSource, setDSource] = useState("jsonFiles");
   const [isWidget, setIsWidget] = useState("no");
+  const [loading, setLoading] = useState(true);
 
   // sessionStorage.clear();
-  let logins = sessionStorage.getItem("loginInfo");
-
-  try {
-    logins = JSON.parse(logins);
-  } catch (err) {}
-  let userRole = "dev";
-  try {
-    userRole = logins.data.role;
-  } catch (err) {}
   let navigate = useNavigate();
+  let logins = sessionStorage.getItem("loginInfo");
+  let userRole = "";
 
-  useEffect(() => {
-    if (!logins || logins == null) {
-      navigate("/");
+  let userData = { user: "", pass: "", data: [] };
+  setTimeout(() => {
+    userData = sessionStorage.getItem("loginInfo");
+    userData = JSON.parse(userData);
+
+    if (!userData || userData == null) {
+      window.location.href = baseName + "/login";
     } else {
+      setLoading(false);
     }
-  }, []);
+  }, 1000);
 
   useEffect(() => {
     getPages()
@@ -274,12 +275,14 @@ export default function Builder() {
       alert,
       isWidget
     );
+
     saveCurrentPage(editor, currentPage);
     pageManager(editor);
     widgetManager(editor);
     bannerManager(editor);
 
     logOut(editor);
+    AdminPage(editor, navigate);
 
     let pageC = "";
     pageC = currentPage;

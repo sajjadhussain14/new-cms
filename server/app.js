@@ -74,9 +74,9 @@ var storage = multer.diskStorage({
   },
 });
 var upload = multer({ storage: storage });
-
 var whitelist = [
   "http://localhost:5500",
+  "http://127.0.0.1:5501",
   "http://localhost",
   "http://localhost/test",
   "http://retacshootingsports-com.server-icumulusdataserver9-vps.vps.ezhostingserver.com",

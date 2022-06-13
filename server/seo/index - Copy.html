@@ -1,0 +1,466 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Celerant Seo</title>
+    <meta name="author" content="Sajjad Hussain">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <link rel="stylesheet" media="all" href="https://cdn.celerantwebservices.com/plugins/fontawesome/5.15.2/all.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+        integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+
+    <script src="js/highlight.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@200;400&display=swap" rel="stylesheet">
+
+    <script>console.log('Version: 1.0.5')</script>
+
+    <!--------text editor resource -->
+    <link rel="stylesheet" href="text-editor/richtext.min.css">
+    <script src="text-editor/richtext.min.js"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+
+    <script src="/lib/builder.js"></script>
+    <script src="/lib/fontend.js"></script>
+
+
+    <script>
+
+        const displayAllPages = () => {
+            let pages = '';
+            getPages().then((AllPages) => {
+                pages += `<option  value="" selected>Please select a Page</option>`
+
+                AllPages.map((page) => {
+                    pages += `<option  value="${page.name
+                        }">${page.name}</option>`
+                })
+
+                document.getElementById('pagesOptions').innerHTML = pages
+            })
+        }
+
+        const getPageMetas = () => {
+            document.getElementById('pagesOptions').addEventListener('change', function () {
+                console.log('You selected: ', this.value);
+
+
+                getPageMetasData(this.value).then((page) => {
+                    let { name, slung, title, description, keywords, focus_keyword, seo_page_heading, seo_page_text } = page
+                    console.log('page data', page.name)
+
+                    if (!name) { name = '' }
+                    if (!slung) { slung = '' }
+                    if (!title) { title = '' }
+                    if (!description) { description = '' }
+                    if (!keywords) { keywords = '' }
+                    if (!focus_keyword) { focus_keyword = '' }
+                    if (!seo_page_heading) { seo_page_heading = '' }
+                    if (!seo_page_text) { seo_page_text = '' }
+
+
+                    try {
+                        document.getElementById('meta-title2').innerHTML = title
+                        checkTitleSeo()
+                    } catch (err) { }
+                    try {
+                        document.getElementById('meta-description2').innerHTML = description
+                        checkDescriptionSeo();
+                    } catch (err) { }
+                    try {
+                        document.getElementById('metakeywords2').innerHTML = keywords;
+                        checkKeywordsSeo();
+                    } catch (err) { }
+                    try {
+                        document.getElementById('focus-key-word').value = focus_keyword;
+                        focusKeywordLengthCheck();
+                    } catch (err) { }
+                    try {
+                        document.getElementById('seo-heading2').innerHTML = seo_page_heading;
+                        checkHeadingSeo();
+                    } catch (err) { }
+                    try {
+                        document.getElementsByClassName("richText-editor")[0].innerHTML = seo_page_text
+
+                        document.getElementById("editor2").value = seo_page_text
+                        document.getElementById("editor1").value = seo_page_text
+
+
+                        checkTextSeo()
+
+                    } catch (err) { }
+
+                    recheckFocuskeyword()
+                })
+
+            });
+        }
+
+
+        const savePageSeodata = () => {
+            let pageName = ''
+            pageName = document.getElementById("pagesOptions").value;
+            let pageData = {
+                name: "",
+                slung: "",
+                title: "",
+                description: "",
+                keywords: "",
+                focus_keyword: "",
+                seo_page_heading: "",
+                seo_page_text: "",
+            };
+            pageData.name = pageName
+            pageData.title = document.getElementById('meta-title').value
+            pageData.description = document.getElementById('meta-description').value
+            pageData.keywords = document.getElementById('metakeywords').value
+            pageData.focus_keyword = document.getElementById('focus-key-word').value
+            pageData.seo_page_heading = document.getElementById('seo-heading').value
+            pageData.seo_page_text = document.getElementById('editor1').value
+
+            savePageSeo(pageData)
+        }
+
+    </script>
+</head>
+
+<body>
+
+
+
+    <div class="container-fluid">
+        <div class=" py-2 shadow-sm bg-light row px-3">
+            <section class="action-bar col-12 d-flex">
+                <div class="container">
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-12 statistics ">
+                        <span>
+                            <a href="/builder/admin">
+                                <i class="fa fauser"></i>
+                                <span class="text-dark">Home</span>
+                            </a>
+                        </span>
+                        <span className="px-2">
+                            <i class="fas fa-laptop-code px-2 "></i>
+                            <a href="/builder/home" class="text-dark">
+                                Builder
+                            </a>
+                        </span>
+
+
+                    </div>
+
+                </div>
+            </section>
+        </div>
+
+        <p class="heading">Celerant Seo Tool</p>
+        <div class="container">
+
+
+            <div class="row">
+
+                <form class="row g-2 border text-center justify-content-center">
+                    <div class="col-2 py-3">
+                        <p class="">Pages: </p>
+                    </div>
+                    <div class="col-10 py-3">
+                        <select id="pagesOptions" class="form-select" aria-label="Default select example">
+                            <option selected>Please select a Page</option>
+                        </select>
+                    </div>
+                </form>
+
+            </div>
+
+
+
+            <div class="row">
+                <div class="leftside col-lg-6 col-md-12 col-sm-12 col-12">
+                    <form name="seoform" action="/toolset/seodata.cfm" method="post" class="seoForm">
+                        <label for="titletag">Meta Title</label>
+                        <div class="float-end">(<span id='title-length'>0</span>/0-60)</div>
+                        <input type="hidden" id="meta-title" name="titletag" value="">
+                        <br>
+                        <div onkeyup="checkTitleSeo()" onblur="recheckFocuskeyword()" id='meta-title2'
+                            contenteditable="true" class="text-input form-control w-100">
+                        </div>
+                        <div id="title-seo-bar-container"><span id="title-seo-bar"
+                                style="width: 0%; background-color: none"></span></div>
+                        <br>
+                        <label for="metadescription">Meta Description</label>
+                        <div class="float-end">(<span id='desc-length'>0</span>/0-156)</div>
+
+                        <input id="meta-description" type='hidden' name="metadescription" cols="100" rows="3" />
+
+                        <div onkeyup="checkDescriptionSeo()" onblur="recheckFocuskeyword()" id='meta-description2'
+                            contenteditable="true" class="text-textarea form-control w-100">
+                        </div>
+                        <div id="description-seo-bar-container"><span id="description-seo-bar"
+                                style="width: 0%; background-color: none"></span>
+                        </div>
+                        <br>
+
+                        <label for="metakeywords"> Meta Keywords <small>( Atleast 5 keywords are
+                                required)</small></label>
+                        <div class="float-end">(<span id='keywords-length'>0</span>/5)</div>
+
+                        <input type="hidden" id="metakeywords" name="metakeywords" value="">
+                        <br>
+                        <div onkeyup="checkKeywordsSeo()" onblur="recheckFocuskeyword()" id='metakeywords2'
+                            contenteditable="true" class="text-input form-control w-100">
+                        </div>
+                        <div id="keywords-seo-bar-container"><span id="keywords-seo-bar"
+                                style="width: 0%; background-color: none"></span></div>
+                        <br>
+                        <label for="Focuswords">Focus Word <small>(Only a word or a phrase here)</small></label>
+                        <div class="float-end">(<span id='focus-length'>0</span> Matches /5)</div>
+
+                        <input type="text" id="focus-key-word" name="focus-key-word" onkeyup="focusKeywordLengthCheck()"
+                            value="">
+                        <div id="focus-seo-bar-container"><span id="focus-seo-bar"
+                                style="width: 0%; background-color: none"></span></div>
+
+                        <br>
+                        <div id="enableDisableCategorySeo">
+                            <label for="seocategory">SEO Page Heading</label>
+                            <div class="float-end">(<span id='heading-length'>0</span>)</div>
+
+                            <input type="hidden" id="seo-heading" name="seo-heading" value="">
+                            <br>
+                            <div onkeyup="checkHeadingSeo()" onblur="recheckFocuskeyword()" id='seo-heading2'
+                                contenteditable="true" class="text-input form-control w-100">
+                            </div>
+                            <div id="heading-seo-bar-container"><span id="heading-seo-bar"
+                                    style="width: 0%; background-color: none"></span></div>
+                            <br>
+                            <label for="metadescription">SEO Page Text</label>
+                            <div class="float-end">(<span id='text-length'>0</span>/300-&infin;
+                                )</div>
+
+                            <div id="container">
+
+                                <textarea class="d-none" name="seo-text" id="editor2"></textarea>
+
+                                <textarea onkeyup="checkTextSeo()" onblur="recheckFocuskeyword()" class="content"
+                                    name="seo-text2" id="editor1"></textarea>
+
+                                <div id="text-seo-bar-container"><span id="text-seo-bar"
+                                        style="width: 0%; background-color: none"></span>
+                                </div>
+                                <br>
+                            </div>
+                        </div>
+                        <br>
+                        <br>
+                        <button type="button" class="btn btn-secondary w-100"
+                            onclick="javascript:savePageSeodata();">Save</button>
+                        <br>
+
+
+                    </form>
+                    <div id="actionMsg" class="col-12 alert alert-info d-none" role="alert">
+                        A simple info alert—check it out!
+                    </div>
+
+                </div>
+
+
+
+                <div class="cssprogresscontainer rightside col-lg-6 col-md-12 col-sm-12 col-12">
+                    <div id="svgcontainer">
+                        <svg height="250" width="250" id="svg">
+                            <circle id="progressbg" cx="125" cy="125" r="90" stroke-width="29" fill="transparent"
+                                stroke-dasharray="753.9822368615503" />
+                            <circle id="progress" cx="125" cy="125" r="90" stroke-width="30" fill="transparent"
+                                stroke-dasharray="753.9822368615503" />
+                        </svg>
+                        <div id="slidervalue">-</div>
+                    </div>
+                    <div class="grade">
+                        <b>SEO Grade</b>
+                        <div class="d-flex">
+                            <span id='seo-grade-report'></span>
+                            <span>performance<em id="seo-score-report"></em></span>
+                        </div>
+                    </div>
+                    <div class="row seo-report">
+                        <p id="title-report"><i class="fa fa-times"></i> <strong> SEO Title</strong> length is
+                            <strong>0</strong> characters. It
+                            Must be between <strong>30 to
+                                60</strong>.
+                        </p>
+
+                        <p id="desc-report"><i class="fa fa-times"></i> <strong> SEO Description</strong> length is
+                            <strong>0</strong> characters. It
+                            Must be between <strong>100 to
+                                156</strong>.
+                        </p>
+
+                        <p id="keywords-report"><i class="fa fa-times"></i> <strong> Meta Keywords</strong> are
+                            <strong>0</strong> Keywords. There
+                            Must be <strong>5</strong> Keywords.
+                        </p>
+
+                        <p id="focus-keyword-report"><i class="fa fa-times"></i> <strong> Focus Keyword</strong> is
+                            <strong>Missing</strong>. There
+                            Must be <strong>1</strong> Focus Keyword.
+                        </p>
+
+                        <p id="heading-report"><i class="fa fa-times"></i> <strong> Page Heading</strong> length
+                            is
+                            <strong>0</strong> characters.
+                        </p>
+
+                        <p id="text-report"><i class="fa fa-times"></i> <strong> Page Text</strong> length
+                            is
+                            <strong>0</strong> words. It
+                            Must be greater than <strong>200 words.
+                        </p>
+
+
+                        <hr>
+                        <p id="focus-in-title"><i class="fa fa-times"></i> <strong> Focus Keyword</strong>
+                            is <strong>Missing</strong> in <strong>SEO Title</strong>.
+                        </p>
+
+                        <p id="focus-in-desc"><i class="fa fa-times"></i>
+                            <strong> Focus Keyword</strong>
+                            is <strong>Missing</strong> in <strong>SEO Description</strong>.
+                        </p>
+
+                        <p id="focus-in-keywords"><i class="fa fa-times"></i> <strong> Focus Keyword</strong>
+                            is <strong>Missing</strong> in <strong> Keywords</strong>.
+                        </p>
+
+
+                        <p id="focus-in-heading"><i class="fa fa-times"></i> <strong> Focus Keyword</strong>
+                            is <strong>Missing</strong> in <strong> Page Heading</strong>.
+                        </p>
+
+
+                        <p id="focus-in-text"><i class="fa fa-times"></i> <strong> Focus Keyword</strong>
+                            is <strong>Missing</strong> in <strong> Page content</strong>.
+                        </p>
+
+
+
+                        <hr>
+                        <div class="pca-tabs">
+                            <ul class="nav nav-tabs" id="myTab" role="tablist">
+                                <li class="nav-item" role="presentation">
+                                    <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab"
+                                        aria-controls="home" aria-selected="true"><strong>Images Report</strong></a>
+                                </li>
+                                <li class="nav-item" role="presentation">
+                                    <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab"
+                                        aria-controls="profile" aria-selected="false"><strong>H Tag Report</strong></a>
+                                </li>
+                            </ul>
+                            <div class="tab-content" id="myTabContent">
+                                <div class="tab-pane fade show active" id="home" role="tabpanel"
+                                    aria-labelledby="home-tab">
+                                    <div id="img-rpt">
+                                        <p id="images-report"></p>
+                                        <p id="alt-images-report"></p>
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+                                    <div id="h-rpt">
+                                        <p id="h1-report"></p>
+                                        <p id="number-h1-report"></p>
+                                        <p id="h2-report"></p>
+                                        <p id="h3-report"></p>
+                                        <p id="h4-report"></p>
+                                        <p id="h5-report"></p>
+                                        <p id="h6-report"></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+
+
+
+
+
+
+                    </div>
+                </div>
+                <br />
+                <script src="js/seo.js"></script>
+                <script>
+                    $('.content').richText();
+
+                </script>
+
+
+                <br><br>
+
+                <hr />
+                <h3 class="text-center">Snippet Preview</h3>
+                <section class="row w-50">
+
+                    <a href="##" class="text-decoration-none gresults" id="url-value">
+                        <span id="currentURL" class="d-block text-dark mb-2">Website</span>
+                        <h4 id="snippet-title" class="lh-1 text-primary mb-2 text-capitalize">
+                            This is how the Page Title appears in search results but if it is too long ...
+                        </h4>
+                    </a>
+                    <p id="" class=" gr text-dark ">
+                        <span id="snippet-desc-date">24-Jun-2021 — </span>
+                        <span id="snippet-desc">
+                            This is the page description. Despite the meta description element's content, the text here
+                            depends on the search query
+                            and is rarely longer than 160 ...
+                        </span>
+                    </p>
+
+
+
+                </section>
+                <br><br>
+                <br>
+
+                <section id='contentHolder'>
+
+
+                </section>
+            </div>
+        </div>
+
+    </div>
+    <script>
+
+        displayAllPages()
+        getPageMetas()
+
+
+
+    </script>
+
+
+</body>
+
+
+
+
+
+</html>

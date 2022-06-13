@@ -24,7 +24,7 @@ export default function fullHeader1(editor) {
       data-gjs-id="full-header-default" id="full-header-default"
       
         >
-            <div id="headerTop" class="header-default-Top">
+            <div id="headerTop" class="header-default-Top" data-gjs-name="Change Bg TOP">
                 <div class="container-fluid">
                     <div class="row">
                         <div class="col-12 text-left">
@@ -35,7 +35,7 @@ export default function fullHeader1(editor) {
                     </div>
                 </div>
             </div>
-            <div id="innerHeader" class="header-default-inner">
+            <div id="innerHeader" class="header-default-inner" data-gjs-name="Change Bg Middle">
                 <div class="container-fluid">
                     <div class="row">
                         <div class="col-lg-3 col-md-4 col-sm-12 col-12">
@@ -459,7 +459,7 @@ export default function fullHeader1(editor) {
           linksCounter++;
           LinksGoups += `
             <li id="li-info-link${linksCounter}" data-gjs-type="default" draggable="true" data-highlightable="1" class="default-header-nav-item nav-item">
-            <a id="a-info-link${linksCounter}" data-gjs-type="link" draggable="true" data-highlightable="1" href="#" class="default-header-nav-links   gjs-hovered">
+            <a id="a-info-link${linksCounter}" data-gjs-type="link" draggable="true" data-highlightable="1" href="#" class="default-header-nav-links navlink  gjs-hovered">
                           Link
                         </a></li>
          `;

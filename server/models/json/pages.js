@@ -1,3 +1,4 @@
+const { filter } = require("compression");
 const fs = require("fs");
 const util = require("util");
 const fsys = require("fs").promises;
@@ -10,6 +11,7 @@ const getPages = (req, res) => {
     if (!data) data = [];
     try {
       pagesData = JSON.parse(data);
+      pagesData = pagesData.filter((page) => page.pageType == "Builder");
     } catch (err) {}
     if (!pagesData) pagesData = [];
     res.json(pagesData);
@@ -33,7 +35,9 @@ const createPageJson = (DataSource, req, res) => {
     prevRecs.some(
       (page) =>
         page.name.toString().toUpperCase() ==
-        req.body.name.toString().toUpperCase()
+          req.body.name.toString().toUpperCase() &&
+        page.slung.toString().toUpperCase() ==
+          req.body.slung.toString().toUpperCase()
     )
   ) {
     return (response = {

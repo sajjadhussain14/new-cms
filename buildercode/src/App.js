@@ -2,25 +2,20 @@ import React, { Suspense } from "react";
 
 //import { BrowserRouter, Switch, Route, Link } from "react-router-dom";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-
+import Admin from "./components/Admin";
+import { baseName } from "./config";
 const Login = React.lazy(() => import("./components/Login"));
 const Builder = React.lazy(() => import("./components/pages/builder"));
-let baseName = "";
+const Settings = React.lazy(() => import("./components/Settings.js"));
 
-const base_url = window.location.origin;
-console.log("base name", base_url);
-
-if (base_url == "http://localhost:5500") {
-  baseName = process.env.REACT_APP_BASE_NAME_TEMP;
-} else {
-  baseName = process.env.REACT_APP_BASE_NAME;
-}
 function App() {
   return (
     <BrowserRouter basename={baseName}>
       <Routes>
+        <Route path="/" element={<Admin />} />
+
         <Route
-          path="/"
+          path="/login"
           element={
             <Suspense fallback={<div>Loading...</div>}>
               <Login />
@@ -28,11 +23,19 @@ function App() {
           }
         />
         <Route
-          exact
           path="/home"
           element={
             <Suspense fallback={<div>Loading...</div>}>
-              <Builder />{" "}
+              <Builder />
+            </Suspense>
+          }
+        />
+
+        <Route
+          path="/settings"
+          element={
+            <Suspense fallback={<div>Loading...</div>}>
+              <Settings />
             </Suspense>
           }
         />

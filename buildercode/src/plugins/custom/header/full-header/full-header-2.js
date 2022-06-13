@@ -51,7 +51,8 @@ export default function fullHeader1(editor) {
                                 <i class="fa fa-bars text-dark"></i>
                               </button>
                             <a href="/login.cfm" class="f-header2-user"> <i class="f-header2-ucicon fa fa-user"></i>  Log In</a>
-                            <a href="/cart.cfm" class="f-header2-bag"><i class="f-header2-ucicon fa fa-shopping-cart"></i><span class="f-header2-cvalue">(0)</span></a>
+                            <a href="/cart.cfm" class="f-header2-bag">
+                            <i class="f-header2-ucicon fa fa-shopping-cart"></i><span class="default-header-cartvalue f-header2-cvalue">(0)</span></a>
                         </div>
                     </div>
                 </div>

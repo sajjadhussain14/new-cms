@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from "react";
-import { IsUserLogedIn } from "./AdminController";
+import { IsUserLogedIn } from "./admin/AdminController";
 import { useNavigate, Link } from "react-router-dom";
 import { checkUserLogin } from "../API";
-
+import { baseName } from "../config";
 export default function Login() {
   const [user, setUser] = useState("");
   const [authinfo, setAuthInfo] = useState({});
@@ -16,7 +16,7 @@ export default function Login() {
 
     if (!logins || logins == null) {
     } else {
-      navigate("/home");
+      window.location.href = baseName + "/";
     }
   }, []);
 
@@ -38,7 +38,7 @@ export default function Login() {
         credentials.data = response.data;
         credentials["pass"] = "*******";
         sessionStorage.setItem("loginInfo", JSON.stringify(credentials));
-        navigate("/home");
+        window.location.href = baseName + "/";
       } else {
         try {
           alert.classList.remove("d-none");

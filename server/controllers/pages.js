@@ -30,11 +30,113 @@ const getPages = async (req, res) => {
       if (!data) data = [];
       try {
         pagesData = JSON.parse(data);
+        pagesData = pagesData.filter((page) => page.pageType == "Builder");
       } catch (err) {}
       if (!pagesData) pagesData = [];
       res.json(pagesData);
     });
   }
+};
+
+const getOtherPages = async (req, res) => {
+  let dataSourceJson = "./data/pages.json";
+  let pagesData = [];
+
+  if (dataSource == "sqlServer") {
+    let pages = [];
+    pages = await getALlPages(req, res);
+
+    res.json(pages);
+  } else if (dataSource == "mongoDb") {
+    let response = await getAllPageMongo();
+    res.json(response);
+  } else {
+    fs.readFile(dataSourceJson, (err, data) => {
+      if (!data) data = [];
+      try {
+        pagesData = JSON.parse(data);
+        pagesData = pagesData.filter((page) => page.pageType != "Builder");
+      } catch (err) {}
+      if (!pagesData) pagesData = [];
+      res.json(pagesData);
+    });
+  }
+};
+
+const getCategoryPages = async (req, res) => {
+  let dataSourceJson = "./data/pages.json";
+  let pagesData = [];
+
+  if (dataSource == "sqlServer") {
+    let pages = [];
+    pages = await getALlPages(req, res);
+
+    res.json(pages);
+  } else if (dataSource == "mongoDb") {
+    let response = await getAllPageMongo();
+    res.json(response);
+  } else {
+    fs.readFile(dataSourceJson, (err, data) => {
+      if (!data) data = [];
+      try {
+        pagesData = JSON.parse(data);
+        pagesData = pagesData.filter((page) => page.pageType == "category");
+      } catch (err) {}
+      if (!pagesData) pagesData = [];
+      res.json(pagesData);
+    });
+  }
+};
+
+const getProductPages = async (req, res) => {
+  let dataSourceJson = "./data/pages.json";
+  let pagesData = [];
+
+  if (dataSource == "sqlServer") {
+    let pages = [];
+    pages = await getALlPages(req, res);
+
+    res.json(pages);
+  } else if (dataSource == "mongoDb") {
+    let response = await getAllPageMongo();
+    res.json(response);
+  } else {
+    fs.readFile(dataSourceJson, (err, data) => {
+      if (!data) data = [];
+      try {
+        pagesData = JSON.parse(data);
+        pagesData = pagesData.filter((page) => page.pageType == "product");
+      } catch (err) {}
+      if (!pagesData) pagesData = [];
+      res.json(pagesData);
+    });
+  }
+};
+
+const getPageMetas = async (req, res) => {
+  let dataSourceJson = "./data/pages.json";
+  let pagesData = [];
+
+  let pageName = "";
+  try {
+    pageName = req.query.page;
+  } catch (err) {}
+  fs.readFile(dataSourceJson, (err, data) => {
+    if (!data) data = [];
+    try {
+      pagesData = JSON.parse(data);
+
+      pagesData = pagesData.filter(
+        (page) => page.name.toUpperCase() == pageName.toUpperCase()
+      );
+    } catch (err) {}
+
+    if (!pagesData) pagesData = {};
+    try {
+      pagesData = pagesData[0];
+    } catch (err) {}
+    res.json(pagesData);
+  });
 };
 
 const newPage = async (req, res) => {
@@ -62,6 +164,66 @@ const newPage = async (req, res) => {
       let resp = createPageJson(DataSource, req, res);
       res.json(resp);
     }
+  }
+};
+
+const updatePageSeoData = async (req, res) => {
+  let DataSource = "./data/pages.json";
+
+  let pages = [];
+  if (!req.body) {
+    req.body = {};
+  }
+
+  let pageName = "";
+  try {
+    pageName = req.body.name;
+  } catch (err) {}
+  if (!pageName || pageName == "") {
+    return res.json({ status: 309, msg: "Please Select a Page !" });
+  } else {
+    let response = { status: 409, msg: "Failed to Update Page SEO Data!" };
+    let pageRecs = [];
+    let prevRecs = [];
+
+    prevRecs = fs.readFileSync(DataSource);
+
+    if (!prevRecs || prevRecs == "") prevRecs = [];
+    if (prevRecs.length > 0) {
+      prevRecs = JSON.parse(prevRecs);
+    }
+    if (!prevRecs || prevRecs == "") prevRecs = [];
+
+    const updatedData = prevRecs.map((page) =>
+      page.name.toString().toUpperCase() ==
+      req.body.name.toString().toUpperCase()
+        ? {
+            ...page,
+            title: req.body.title,
+            keywords: req.body.keywords,
+            description: req.body.description,
+            focus_keyword: req.body.focus_keyword,
+            seo_page_heading: req.body.seo_page_heading,
+            seo_page_text: req.body.seo_page_text,
+          }
+        : page
+    );
+
+    pageRecs = JSON.stringify(updatedData);
+    try {
+      fs.writeFileSync(DataSource, pageRecs);
+      response = {
+        status: 201,
+        msg: `Page SEO Data Updated Successfully!`,
+      };
+    } catch (err) {
+      response = {
+        status: 409,
+        msg: `Page SEO Data Updation Failed!`,
+      };
+    }
+
+    res.json(response);
   }
 };
 
@@ -139,4 +301,13 @@ const delPage = async (req, res) => {
     }
   }
 };
-module.exports = { getPages, newPage, delPage };
+module.exports = {
+  getPages,
+  newPage,
+  delPage,
+  getPageMetas,
+  updatePageSeoData,
+  getOtherPages,
+  getCategoryPages,
+  getProductPages,
+};

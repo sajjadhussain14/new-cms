@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+
 import {
   getPages,
   getWidgets,
@@ -9,7 +10,7 @@ import {
   uploadImages,
 } from "../../../API";
 import { allCategories } from "../../../components/custom/categories";
-import { appURL, nodeExpressURL } from "../../../config";
+import { appURL, baseName, nodeExpressURL } from "../../../config";
 export const InitEditor = (
   grapesjs,
   currentPage,
@@ -229,10 +230,40 @@ export const logOut = (editor) => {
   });
 };
 
+export const AdminPage = (editor, navigate) => {
+  editor.Panels.addButton("options", [
+    {
+      id: "admin-page",
+      className: "fa fa-user user-manager ",
+      command: "admin-page",
+      type: "button",
+
+      attributes: { title: "Admin Page" },
+    },
+  ]);
+
+  editor.Commands.add("admin-page", {
+    run: function (editor, sender) {
+      //navigate("/admin");
+      window.location.href = baseName + "/";
+    },
+  });
+};
+
 export const savePage = (editor, currentPage) => {};
 
-export const PageHandle = (setAllPages) => {
-  let pageData = { name: "", slung: "" };
+export const PageHandle = (setAllPages, pgType) => {
+  let pageData = {
+    name: "",
+    slung: "",
+    title: "",
+    description: "",
+    keywords: "",
+    focus_keyword: "",
+    seo_page_heading: "",
+    seo_page_text: "",
+    pageType: pgType,
+  };
   let pageName = "";
   pageName = document.getElementById("pageName").value.trim();
   if (!pageName) pageName = "";
